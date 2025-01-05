@@ -1,0 +1,33 @@
+****************************************
+Report : Averaged Power
+	-nosplit
+Design : torus_credit_D_W32
+Version: P-2019.03-SP3
+Date   : Thu Dec  5 14:17:43 2024
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network            232.8592   30.1535 3.574e-04  263.0131 (92.84%)  i
+register                  10.6611    2.3917    0.0129   13.0657 ( 4.61%)  
+combinational              5.3444    1.8605 2.899e-03    7.2078 ( 2.54%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  =   34.4057   (12.15%)
+  Cell Internal Power  =  248.8647   (87.85%)
+  Cell Leakage Power   =    0.0162   ( 0.01%)
+                         ---------
+Total Power            =  283.2865  (100.00%)
+
+1

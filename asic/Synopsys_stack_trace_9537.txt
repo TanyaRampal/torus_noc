@@ -1,0 +1,155 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 8.2-20.el8
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 9537
+[New LWP 9596]
+[New LWP 9597]
+[New LWP 9598]
+[New LWP 9599]
+[New LWP 9600]
+[New LWP 9601]
+[New LWP 9602]
+[New LWP 9603]
+[New LWP 9604]
+[New LWP 9605]
+[New LWP 9606]
+[New LWP 9607]
+[New LWP 9608]
+[New LWP 9609]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+0x00007fdf7e8a2e42 in waitpid () from /usr/lib64/libc.so.6
+Missing separate debuginfos, use: yum debuginfo-install bzip2-libs-1.0.6-27.el8_10.x86_64 dbus-glib-0.110-2.el8.x86_64 dbus-libs-1.12.8-26.el8.x86_64 expat-2.2.5-16.el8_10.x86_64 flac-libs-1.3.2-9.el8_8.1.x86_64 fontconfig-2.13.1-4.el8.x86_64 freetype-2.9.1-9.el8.x86_64 glib2-2.56.4-165.el8_10.x86_64 glibc-2.28-251.el8_10.5.x86_64 gmp-6.1.2-11.el8.x86_64 gnutls-3.6.16-8.el8_9.3.x86_64 gsm-1.0.17-5.el8.x86_64 krb5-libs-1.18.2-30.el8_10.x86_64 libICE-1.0.9-15.el8.x86_64 libSM-1.2.3-1.el8.x86_64 libXScrnSaver-1.2.3-1.el8.x86_64 libXau-1.0.9-3.el8.x86_64 libXcomposite-0.4.4-14.el8.x86_64 libXext-1.3.4-1.el8.x86_64 libXft-2.3.3-1.el8.x86_64 libXrender-0.9.10-7.el8.x86_64 libXtst-1.2.3-7.el8.x86_64 libasyncns-0.8-14.el8.x86_64 libblkid-2.32.1-46.el8.x86_64 libcap-2.48-6.el8_9.x86_64 libcom_err-1.45.6-5.el8.x86_64 libffi-3.1-24.el8.x86_64 libgcrypt-1.8.5-7.el8_6.x86_64 libglvnd-1.3.4-2.el8.x86_64 libglvnd-glx-1.3.4-2.el8.x86_64 libgpg-error-1.31-1.el8.x86_64 libmount-2.32.1-46.el8.x86_64 libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64 libogg-1.3.2-10.el8.x86_64 libpng-1.6.34-5.el8.x86_64 libpng12-1.2.57-5.el8.x86_64 libselinux-2.9-8.el8.x86_64 libsndfile-1.0.28-14.el8.x86_64 libtasn1-4.13-4.el8_7.x86_64 libtirpc-1.1.4-12.el8_10.x86_64 libunistring-0.9.9-3.el8.x86_64 libuuid-2.32.1-46.el8.x86_64 libxml2-2.9.7-18.el8_10.1.x86_64 lz4-libs-1.8.3-3.el8_4.x86_64 ncurses-compat-libs-6.1-10.20180224.el8.x86_64 nettle-3.4.1-7.el8.x86_64 nss_nis-3.0-8.el8.x86_64 openssl-libs-1.1.1k-14.el8_6.x86_64 pcre-8.42-6.el8.x86_64 pulseaudio-libs-14.0-4.el8.x86_64 sqlite-libs-3.26.0-19.el8_9.x86_64 systemd-libs-239-82.el8_10.2.x86_64 zlib-1.2.11-25.el8.x86_64
+(gdb) (gdb) 
+Thread 15 (Thread 0x7fdf65d27700 (LWP 9609)):
+#0  0x00007fdf896e81a0 in nanosleep () from /usr/lib64/libpthread.so.0
+#1  0x0000000008fd5494 in SNPSee_b71249bc6c685971abb10b7440ee764236074df731c84333005120aa2875f0e4cc9ee18b4cf661bcc64f588d87d212421c3c40d6cdab81e9 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 14 (Thread 0x7fdf669c2080 (LWP 9608)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 13 (Thread 0x7fdf6765d080 (LWP 9607)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 12 (Thread 0x7fdf682f8080 (LWP 9606)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 11 (Thread 0x7fdf68f93080 (LWP 9605)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 10 (Thread 0x7fdf69c2e080 (LWP 9604)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 9 (Thread 0x7fdf6a8c9080 (LWP 9603)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 8 (Thread 0x7fdf6b564080 (LWP 9602)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 7 (Thread 0x7fdf6c1ff080 (LWP 9601)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 6 (Thread 0x7fdf6ce9a080 (LWP 9600)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 5 (Thread 0x7fdf6db35080 (LWP 9599)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 4 (Thread 0x7fdf6e7d0080 (LWP 9598)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 3 (Thread 0x7fdf6f46b080 (LWP 9597)):
+#0  0x00007fdf896e447c in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051eb8a4 in SNPSee_c4e6733fd6b7faa013a61ef6581007b5907daec8dc268df7 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 2 (Thread 0x7fdf6fc6c700 (LWP 9596)):
+#0  0x00007fdf896e47ca in pthread_cond_timedwait@@GLIBC_2.3.2 () from /usr/lib64/libpthread.so.0
+#1  0x00000000051e9403 in SNPSee_23e791ebed4eefeffb2f914fd807e1917a0938c57a6ac6f1 ()
+#2  0x0000000008e7e375 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007fdf896de1ca in start_thread () from /usr/lib64/libpthread.so.0
+#4  0x00007fdf7e7d48d3 in clone () from /usr/lib64/libc.so.6
+
+Thread 1 (Thread 0x7fdf8d419380 (LWP 9537)):
+#0  0x00007fdf7e8a2e42 in waitpid () from /usr/lib64/libc.so.6
+#1  0x00007fdf7e7f6747 in do_system () from /usr/lib64/libc.so.6
+#2  0x0000000008eb8abd in SNPSee_4f1eca636f186904 ()
+#3  0x0000000008e80272 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x0000000008e81cb8 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#5  0x0000000000a1096a in SNPSee_b809e85fd48ae9cb7334117cf092be43fdbe4c9ef87aef20aa940e08182cf0edbf47ade14f482cd4 ()
+#6  0x0000000008ef4d61 in SNPSee_b0111077a1564ec2f03c23d0bb102089295fca3df69878e1 ()
+#7  0x0000000008ef58ca in SNPSee_616b6e047c741ff1baf571efe85d3536eac68d027a1be0e0030a066449e92897 ()
+#8  0x0000000008ef4e7c in SNPSee_b5b74bb29e23928e271a046254d5c62e ()
+#9  <signal handler called>
+#10 0x000000000561649c in SNPSee_384aa5cd2709b0f6b58a02b0f746363978e68477d07ae4c1 ()
+#11 0x0000000005608e82 in SNPSee_ac5f9249447df91c573ec02fe3f0cfc516b51aab0999fd3a18792a8321797c096173c3644bc7ee34dc6a08b2cf345af15e611f2fbc666a971856678be27848d1bb2ce86589da76f530baa2898715e45acd3f693afeac32e238a27511439a84d4 ()
+#12 0x0000000005655bcd in SNPSee_a134a1d4ce4b8848ceedb33561c93148e0320c95907ecba87fac9268c2613bc89275a80b7e39f4da9aa14489ec4a715b4e5d4b84349c1d4ee5a7c5e2ad6a154f ()
+#13 0x00000000055fe0bd in SNPSee_9a1dcb48285d5f95766b647894897858066bd70d3bf11ed3 ()
+#14 0x0000000000a12e4f in SNPSee_513e068b590df54de32f331b4970d2be ()
+#15 0x00000000006bb4de in SNPSee_5a24f30b88271223 ()
+#16 0x00007fdf7e7d57e5 in __libc_start_main () from /usr/lib64/libc.so.6
+#17 0x0000000000a0f8b9 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /CMC/tools/synopsys/pts_vP-2019.03-SP3/pts/P-2019.03-SP3/linux64/syn/bin/pt_shell_exec, process 9537
+[Inferior 1 (process 9537) detached]
+(gdb) 

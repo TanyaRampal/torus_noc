@@ -1,0 +1,110 @@
+ 
+****************************************
+Report : area
+Design : torus_D_W32
+Version: R-2020.09-SP1
+Date   : Sat Dec  7 21:18:03 2024
+****************************************
+
+Library(s) Used:
+
+    tcbn65gplusbc (File: /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db)
+    low_swing_rx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db)
+    torus_xbar_1b_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db)
+    low_swing_tx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db)
+
+Number of ports:                         4788
+Number of nets:                         14126
+Number of cells:                         8893
+Number of combinational cells:           3933
+Number of sequential cells:              4320
+Number of macros/black boxes:             576
+Number of buf/inv:                       2540
+Number of references:                      35
+
+Combinational area:               5045.040157
+Buf/Inv area:                     1361.880054
+Noncombinational area:           23102.999757
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 28148.039914
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-   Black-
+                                  Total       Total    national   national    boxes   Design
+--------------------------------  ----------  -------  ---------  ----------  ------  ---------------------------------------------------------------------------
+torus_D_W32                       28148.0399    100.0     1.0800      0.0000  0.0000  torus_D_W32
+ys[0].xs[0].client_xy               537.4800      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[0].client_xy/regulator     101.5200      0.4    48.9600     52.5600  0.0000  token_bucket_SIGMA3_RATE20_0
+ys[0].xs[0].torus_switch_xy        1162.8000      4.1    23.0400   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X0_Y0
+ys[0].xs[0].torus_switch_xy/dor_inst    41.0400     0.1   41.0400     0.0000  0.0000  dor_X_W2_Y_W2_X0_Y0
+ys[0].xs[1].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[1].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_15
+ys[0].xs[1].torus_switch_xy        1164.2400      4.1    23.0400   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X1_Y0
+ys[0].xs[1].torus_switch_xy/dor_inst    42.4800     0.2   42.4800     0.0000  0.0000  dor_X_W2_Y_W2_X1_Y0
+ys[0].xs[2].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[2].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_14
+ys[0].xs[2].torus_switch_xy        1194.4800      4.2    53.2800   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X2_Y0
+ys[0].xs[2].torus_switch_xy/dor_inst    42.4800     0.2   42.4800     0.0000  0.0000  dor_X_W2_Y_W2_X2_Y0
+ys[0].xs[3].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[3].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_13
+ys[0].xs[3].torus_switch_xy        1232.6400      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X3_Y0
+ys[0].xs[3].torus_switch_xy/dor_inst    41.7600     0.1   41.7600     0.0000  0.0000  dor_X_W2_Y_W2_X3_Y0
+ys[1].xs[0].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[0].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_12
+ys[1].xs[0].torus_switch_xy        1233.3600      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X0_Y1
+ys[1].xs[0].torus_switch_xy/dor_inst    42.4800     0.2   42.4800     0.0000  0.0000  dor_X_W2_Y_W2_X0_Y1
+ys[1].xs[1].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[1].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_11
+ys[1].xs[1].torus_switch_xy        1234.8000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X1_Y1
+ys[1].xs[1].torus_switch_xy/dor_inst    43.9200     0.2   43.9200     0.0000  0.0000  dor_X_W2_Y_W2_X1_Y1
+ys[1].xs[2].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[2].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_10
+ys[1].xs[2].torus_switch_xy        1234.8000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X2_Y1
+ys[1].xs[2].torus_switch_xy/dor_inst    43.9200     0.2   43.9200     0.0000  0.0000  dor_X_W2_Y_W2_X2_Y1
+ys[1].xs[3].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[3].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_9
+ys[1].xs[3].torus_switch_xy        1234.0800      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X3_Y1
+ys[1].xs[3].torus_switch_xy/dor_inst    43.2000     0.2   43.2000     0.0000  0.0000  dor_X_W2_Y_W2_X3_Y1
+ys[2].xs[0].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[0].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_8
+ys[2].xs[0].torus_switch_xy        1233.3600      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X0_Y2
+ys[2].xs[0].torus_switch_xy/dor_inst    42.4800     0.2   42.4800     0.0000  0.0000  dor_X_W2_Y_W2_X0_Y2
+ys[2].xs[1].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[1].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_7
+ys[2].xs[1].torus_switch_xy        1234.8000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X1_Y2
+ys[2].xs[1].torus_switch_xy/dor_inst    43.9200     0.2   43.9200     0.0000  0.0000  dor_X_W2_Y_W2_X1_Y2
+ys[2].xs[2].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[2].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_6
+ys[2].xs[2].torus_switch_xy        1234.8000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X2_Y2
+ys[2].xs[2].torus_switch_xy/dor_inst    43.9200     0.2   43.9200     0.0000  0.0000  dor_X_W2_Y_W2_X2_Y2
+ys[2].xs[3].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[3].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_5
+ys[2].xs[3].torus_switch_xy        1234.0800      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X3_Y2
+ys[2].xs[3].torus_switch_xy/dor_inst    43.2000     0.2   43.2000     0.0000  0.0000  dor_X_W2_Y_W2_X3_Y2
+ys[3].xs[0].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[0].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_4
+ys[3].xs[0].torus_switch_xy        1231.5600      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X0_Y3
+ys[3].xs[0].torus_switch_xy/dor_inst    40.6800     0.1   40.6800     0.0000  0.0000  dor_X_W2_Y_W2_X0_Y3
+ys[3].xs[1].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[1].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_3
+ys[3].xs[1].torus_switch_xy        1233.0000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X1_Y3
+ys[3].xs[1].torus_switch_xy/dor_inst    42.1200     0.1   42.1200     0.0000  0.0000  dor_X_W2_Y_W2_X1_Y3
+ys[3].xs[2].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[2].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_2
+ys[3].xs[2].torus_switch_xy        1233.0000      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X2_Y3
+ys[3].xs[2].torus_switch_xy/dor_inst    42.1200     0.1   42.1200     0.0000  0.0000  dor_X_W2_Y_W2_X2_Y3
+ys[3].xs[3].client_xy               536.7600      1.9   143.6400    292.3200  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[3].client_xy/regulator     100.8000      0.4    47.8800     52.9200  0.0000  token_bucket_SIGMA3_RATE20_1
+ys[3].xs[3].torus_switch_xy        1232.2800      4.4    92.1600   1098.7200  0.0000  torus_switch_X_W2_Y_W2_D_W32_X3_Y3
+ys[3].xs[3].torus_switch_xy/dor_inst    41.4000     0.1   41.4000     0.0000  0.0000  dor_X_W2_Y_W2_X3_Y3
+--------------------------------  ----------  -------  ---------  ----------  ------  ---------------------------------------------------------------------------
+Total                                                  5045.0402  23102.9998  0.0000
+
+1

@@ -1,0 +1,134 @@
+Warning: The trip points for the library named low_swing_rx_wc differ from those in the library named tcbn65gplusbc. (TIM-164)
+Warning: The trip points for the library named low_swing_rx_tc differ from those in the library named tcbn65gplusbc. (TIM-164)
+Information: Updating design information... (UID-85)
+Warning: Design 'torus_bp_D_W32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : torus_bp_D_W32
+Version: R-2020.09-SP1
+Date   : Sat Dec  7 21:31:55 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: BCCOM   Library: tcbn65gplusbc
+Wire Load Model Mode: segmented
+
+  Startpoint: ys[0].xs[0].client_xy/i_d_r_reg[0]
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: ys[0].xs[0].torus_switch_xy/e_out_data_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  shadow_reg_combi_D_W36_15 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_14 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_13 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_12 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_11 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_10 ZeroWireload   tcbn65gplusbc
+  shadow_reg_combi_D_W36_9 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_8 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_7 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_6 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_5 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_4 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_3 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_2 ZeroWireload    tcbn65gplusbc
+  shadow_reg_combi_D_W36_1 ZeroWireload    tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_15 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_14 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_13 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_12 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_11 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_10 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_9 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_8 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_7 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_6 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_5 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_4 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_3 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_2 ZeroWireload tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_1 ZeroWireload tcbn65gplusbc
+  shadow_reg_combi_D_W36_0 ZeroWireload    tcbn65gplusbc
+  token_bucket_SIGMA3_RATE20_0 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y3 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y3 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y3 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y3 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y2 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y2 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y2 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y2 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y1 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y1 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y1 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y1 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y0 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y0 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y0 ZeroWireload tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+  torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y0 ZeroWireload tcbn65gplusbc
+  torus_bp_D_W32     ZeroWireload          tcbn65gplusbc
+  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  ys[0].xs[0].client_xy/i_d_r_reg[0]/CP (DFQD1)           0.00      0.00 #     0.00 r
+  ys[0].xs[0].client_xy/i_d_r_reg[0]/Q (DFQD1)            0.26      0.18       0.18 r
+  ys[0].xs[0].client_xy/i_data[0] (net)         2                   0.00       0.18 r
+  ys[0].xs[0].client_xy/i_data[0] (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4)     0.00     0.18 r
+  i[0][0][0] (net)                                                  0.00       0.18 r
+  ys[0].xs[0].torus_switch_xy/i_data[0] (torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y0)     0.00     0.18 r
+  ys[0].xs[0].torus_switch_xy/i_data[0] (net)                       0.00       0.18 r
+  ys[0].xs[0].torus_switch_xy/xbar_gen[0].xbar_inst/eo (torus_xbar_1b)     0.67 9999999848243207295109594873856.00 9999999848243207295109594873856.00 r
+  ys[0].xs[0].torus_switch_xy/e_msg[0] (net)     1                  0.00   9999999848243207295109594873856.00 r
+  ys[0].xs[0].torus_switch_xy/e_out_data_reg_reg[0]/D (EDFKCNQD1)     1.34     0.00 9999999848243207295109594873856.00 r
+  data arrival time                                                        9999999848243207295109594873856.00
+
+  clock ideal_clock1 (rise edge)                                    1.00       1.00
+  clock network delay (ideal)                                       0.00       1.00
+  ys[0].xs[0].torus_switch_xy/e_out_data_reg_reg[0]/CP (EDFKCNQD1)     0.00     1.00 r
+  library setup time                                               -0.17       0.83
+  data required time                                                           0.83
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.83
+  data arrival time                                                        -9999999848243207295109594873856.00
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                         -9999999848243207295109594873856.00
+
+
+1

@@ -1,0 +1,11 @@
+[12/06 11:01:50      0s] 
+[12/06 11:01:50      0s] Cadence Innovus(TM) Implementation System.
+[12/06 11:01:50      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/06 11:01:50      0s] 
+[12/06 11:01:50      0s] Version:	v21.17-s075_1, built Wed Mar 15 11:17:40 PDT 2023
+[12/06 11:01:50      0s] Options:	-no_gui -execute set asictop torus; set datawidth 32 -files asic-par.tcl 
+[12/06 11:01:50      0s] Date:		Fri Dec  6 11:01:50 2024
+[12/06 11:01:50      0s] Host:		ECEUBUNTU2 (x86_64 w/Linux 4.18.0-553.27.1.el8_10.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz 25344KB)
+[12/06 11:01:50      0s] OS:		Red Hat Enterprise Linux 8.10 (Ootpa)
+[12/06 11:01:50      0s] 
+[12/06 11:01:50      0s] License:

@@ -1,0 +1,190 @@
+ 
+****************************************
+Report : area
+Design : torus_credit_D_W32
+Version: R-2020.09-SP1
+Date   : Sat Dec  7 22:02:38 2024
+****************************************
+
+Library(s) Used:
+
+    tcbn65gplusbc (File: /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db)
+    low_swing_rx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db)
+    torus_xbar_1b_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db)
+    low_swing_tx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db)
+
+Number of ports:                        11700
+Number of nets:                        123951
+Number of cells:                       111277
+Number of combinational cells:          51133
+Number of sequential cells:             59424
+Number of macros/black boxes:             576
+Number of buf/inv:                       7056
+Number of references:                      35
+
+Combinational area:             131634.724509
+Buf/Inv area:                     7021.080096
+Noncombinational area:          541554.100997
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                673188.825505
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  -------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes   Design
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+torus_credit_D_W32                673188.8255    100.0       1.0800       0.0000  0.0000  torus_credit_D_W32
+ys[0].xs[0].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[0].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_0
+ys[0].xs[0].torus_switch_xy        41488.1991      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[0].xs[0].torus_switch_xy/dor_credit_inst     71.2800     0.0     71.2800      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X0_Y0
+ys[0].xs[0].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_0
+ys[0].xs[0].torus_switch_xy/west_conn_rx  40277.5191     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_0
+ys[0].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13295.8797     2.0   2396.8801  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_0
+ys[0].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13299.4797     2.0   2400.4801  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_47
+ys[0].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13305.2397     2.0   2406.2401  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_46
+ys[0].xs[1].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[1].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_15
+ys[0].xs[1].torus_switch_xy        41470.9191      6.2     171.7200     617.0400  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[0].xs[1].torus_switch_xy/dor_credit_inst     70.5600     0.0     70.5600      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X1_Y0
+ys[0].xs[1].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_15
+ys[0].xs[1].torus_switch_xy/west_conn_rx  40263.8391     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_15
+ys[0].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_45
+ys[0].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_44
+ys[0].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13299.4797     2.0   2400.4801  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_43
+ys[0].xs[2].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[2].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_14
+ys[0].xs[2].torus_switch_xy        41464.0791      6.2     171.7200     617.0400  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[0].xs[2].torus_switch_xy/dor_credit_inst     70.5600     0.0     70.5600      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X2_Y0
+ys[0].xs[2].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_14
+ys[0].xs[2].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_14
+ys[0].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_42
+ys[0].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_41
+ys[0].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_40
+ys[0].xs[3].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[0].xs[3].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_13
+ys[0].xs[3].torus_switch_xy        41462.9991      6.2     171.7200     617.0400  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[0].xs[3].torus_switch_xy/dor_credit_inst     69.4800     0.0     69.4800      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X3_Y0
+ys[0].xs[3].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_13
+ys[0].xs[3].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_13
+ys[0].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_39
+ys[0].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_38
+ys[0].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_37
+ys[1].xs[0].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[0].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_12
+ys[1].xs[0].torus_switch_xy        41466.5991      6.2     171.7200     617.0400  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[1].xs[0].torus_switch_xy/dor_credit_inst     72.0000     0.0     72.0000      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X0_Y1
+ys[1].xs[0].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_12
+ys[1].xs[0].torus_switch_xy/west_conn_rx  40258.0791     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_12
+ys[1].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_36
+ys[1].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_35
+ys[1].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_34
+ys[1].xs[1].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[1].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_11
+ys[1].xs[1].torus_switch_xy        41526.7191      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[1].xs[1].torus_switch_xy/dor_credit_inst     71.6400     0.0     71.6400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X1_Y1
+ys[1].xs[1].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_11
+ys[1].xs[1].torus_switch_xy/west_conn_rx  40315.6791     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_11
+ys[1].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13305.2397     2.0   2406.2401  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_33
+ys[1].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13316.7597     2.0   2417.7601  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_32
+ys[1].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13316.7597     2.0   2417.7601  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_31
+ys[1].xs[2].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[2].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_10
+ys[1].xs[2].torus_switch_xy        41468.0391      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[1].xs[2].torus_switch_xy/dor_credit_inst     71.6400     0.0     71.6400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X2_Y1
+ys[1].xs[2].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_10
+ys[1].xs[2].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_10
+ys[1].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_30
+ys[1].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_29
+ys[1].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_28
+ys[1].xs[3].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[1].xs[3].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_9
+ys[1].xs[3].torus_switch_xy        41466.2391      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[1].xs[3].torus_switch_xy/dor_credit_inst     69.8400     0.0     69.8400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X3_Y1
+ys[1].xs[3].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_9
+ys[1].xs[3].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_9
+ys[1].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_27
+ys[1].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_26
+ys[1].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_25
+ys[2].xs[0].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[0].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_8
+ys[2].xs[0].torus_switch_xy        41469.4791      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[2].xs[0].torus_switch_xy/dor_credit_inst     72.0000     0.0     72.0000      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X0_Y2
+ys[2].xs[0].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_8
+ys[2].xs[0].torus_switch_xy/west_conn_rx  40258.0791     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_8
+ys[2].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_24
+ys[2].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_23
+ys[2].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_22
+ys[2].xs[1].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[1].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_7
+ys[2].xs[1].torus_switch_xy        41526.7191      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[2].xs[1].torus_switch_xy/dor_credit_inst     71.6400     0.0     71.6400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X1_Y2
+ys[2].xs[1].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_7
+ys[2].xs[1].torus_switch_xy/west_conn_rx  40315.6791     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_7
+ys[2].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13305.2397     2.0   2406.2401  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_21
+ys[2].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13316.7597     2.0   2417.7601  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_20
+ys[2].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13316.7597     2.0   2417.7601  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_19
+ys[2].xs[2].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[2].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_6
+ys[2].xs[2].torus_switch_xy        41468.0391      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[2].xs[2].torus_switch_xy/dor_credit_inst     71.6400     0.0     71.6400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X2_Y2
+ys[2].xs[2].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_6
+ys[2].xs[2].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_6
+ys[2].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_18
+ys[2].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_17
+ys[2].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_16
+ys[2].xs[3].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[2].xs[3].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_5
+ys[2].xs[3].torus_switch_xy        41466.2391      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[2].xs[3].torus_switch_xy/dor_credit_inst     69.8400     0.0     69.8400      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X3_Y2
+ys[2].xs[3].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_5
+ys[2].xs[3].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_5
+ys[2].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_15
+ys[2].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_14
+ys[2].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_13
+ys[3].xs[0].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[0].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_4
+ys[3].xs[0].torus_switch_xy        41464.7991      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[3].xs[0].torus_switch_xy/dor_credit_inst     67.3200     0.0     67.3200      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X0_Y3
+ys[3].xs[0].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_4
+ys[3].xs[0].torus_switch_xy/west_conn_rx  40258.0791     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_4
+ys[3].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_12
+ys[3].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_11
+ys[3].xs[0].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.7197     2.0   2394.7201  10898.9996 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_10
+ys[3].xs[1].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[1].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_3
+ys[3].xs[1].torus_switch_xy        41465.8791      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[3].xs[1].torus_switch_xy/dor_credit_inst     69.4800     0.0     69.4800      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X1_Y3
+ys[3].xs[1].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_3
+ys[3].xs[1].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_3
+ys[3].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_9
+ys[3].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_8
+ys[3].xs[1].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_7
+ys[3].xs[2].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[2].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_2
+ys[3].xs[2].torus_switch_xy        41465.8791      6.2     173.8800     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[3].xs[2].torus_switch_xy/dor_credit_inst     69.4800     0.0     69.4800      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X2_Y3
+ys[3].xs[2].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_2
+ys[3].xs[2].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_2
+ys[3].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_6
+ys[3].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_5
+ys[3].xs[2].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_4
+ys[3].xs[3].client_xy                598.3200      0.1     164.8800     331.2000  0.0000  client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4
+ys[3].xs[3].client_xy/regulator      102.2400      0.0      50.0400      52.2000  0.0000  token_bucket_SIGMA3_RATE20_1
+ys[3].xs[3].torus_switch_xy        41473.7991      6.2     182.5200     617.7600  0.0000  torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32
+ys[3].xs[3].torus_switch_xy/dor_credit_inst     68.7600     0.0     68.7600      0.0000 0.0000 DOR_CREDIT_X_W2_Y_W2_X3_Y3
+ys[3].xs[3].torus_switch_xy/east_conn_tx    347.7600     0.1    245.1600    102.6000 0.0000 credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_1
+ys[3].xs[3].torus_switch_xy/west_conn_rx  40256.9991     6.0    329.7600     47.1600 0.0000 credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_1
+ys[3].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[0].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_3
+ys[3].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[1].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_2
+ys[3].xs[3].torus_switch_xy/west_conn_rx/gen_vc_logic[2].vc_fifo  13293.3597     2.0   2394.7201  10898.6396 0.0000 fifo32_DEPTH321_WIDTH36_RLATENCY0_1
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                   131634.7245  541554.1010  0.0000
+
+1

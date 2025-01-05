@@ -1,0 +1,121 @@
+[12/05 15:45:34      0s] 
+[12/05 15:45:34      0s] Cadence Innovus(TM) Implementation System.
+[12/05 15:45:34      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/05 15:45:34      0s] 
+[12/05 15:45:34      0s] Version:	v21.17-s075_1, built Wed Mar 15 11:17:40 PDT 2023
+[12/05 15:45:34      0s] Options:	-no_gui -execute set asictop torus_credit; set datawidth 32 -files asic-par.tcl 
+[12/05 15:45:34      0s] Date:		Thu Dec  5 15:45:34 2024
+[12/05 15:45:34      0s] Host:		ECEUBUNTU2 (x86_64 w/Linux 4.18.0-553.27.1.el8_10.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz 25344KB)
+[12/05 15:45:34      0s] OS:		Red Hat Enterprise Linux 8.10 (Ootpa)
+[12/05 15:45:34      0s] 
+[12/05 15:45:34      0s] License:
+[12/05 15:45:35      0s] 		[15:45:35.232380] Configured Lic search path (21.01-s002): 6055@cadpass2.eng.uwaterloo.ca:6055@cadpass1.eng.uwaterloo.ca:7055@cadpass1.eng.uwaterloo.ca:7055@cadpass2.eng.uwaterloo.ca
+
+[12/05 15:45:35      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[12/05 15:45:35      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/05 15:45:47     12s] Reset Parastics called with the command setExtractRCMode -reset**WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[12/05 15:45:50     14s] @(#)CDS: Innovus v21.17-s075_1 (64bit) 03/15/2023 11:17 (Linux 3.10.0-693.el7.x86_64)
+[12/05 15:45:50     14s] @(#)CDS: NanoRoute 21.17-s075_1 NR230308-2354/21_17-UB (database version 18.20.604) {superthreading v2.17}
+[12/05 15:45:50     14s] @(#)CDS: AAE 21.17-s026 (64bit) 03/15/2023 (Linux 3.10.0-693.el7.x86_64)
+[12/05 15:45:50     14s] @(#)CDS: CTE 21.17-s025_1 () Mar 14 2023 11:00:06 ( )
+[12/05 15:45:50     14s] @(#)CDS: SYNTECH 21.17-s007_1 () Feb 20 2023 06:56:35 ( )
+[12/05 15:45:50     14s] @(#)CDS: CPE v21.17-s068
+[12/05 15:45:50     14s] @(#)CDS: IQuantus/TQuantus 21.1.1-s939 (64bit) Wed Nov 9 09:34:24 PST 2022 (Linux 3.10.0-693.el7.x86_64)
+[12/05 15:45:50     14s] @(#)CDS: OA 22.60-p087 Thu Feb  9 09:35:26 2023
+[12/05 15:45:50     14s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/05 15:45:50     14s] @(#)CDS: RCDB 11.15.0
+[12/05 15:45:50     14s] @(#)CDS: STYLUS 21.12-s019_1 (12/20/2022 05:13 PST)
+[12/05 15:45:50     14s] @(#)CDS: SystemPlanner-21.17Rel-10251 (21.17) (2023-02-02 17:22:51+0800)
+[12/05 15:45:50     14s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_3924568_ECEUBUNTU2_t3rampal_cKGecV.
+
+[12/05 15:45:50     14s] Change the soft stacksize limit to 0.2%RAM (770 mbytes). Set global soft_stack_size_limit to change the value.
+[12/05 15:45:51     15s] 
+[12/05 15:45:51     15s] **INFO:  MMMC transition support version v31-84 
+[12/05 15:45:51     15s] 
+[12/05 15:45:51     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/05 15:45:51     15s] <CMD> suppressMessage ENCEXT-2799
+[12/05 15:45:51     15s] <CMD> getVersion
+[12/05 15:45:52     15s] [INFO] Loading PVS  fill procedures
+[12/05 15:45:52     15s] **WARN: Tk package not loaded. The PVS fill DRC monitor is disabled.
+[12/05 15:45:52     15s] Executing cmd 'set asictop torus_credit; set datawidth 32' ...
+[12/05 15:45:52     15s] Sourcing file "asic-par.tcl" ...
+[12/05 15:45:52     15s] <CMD> set init_mmmc_file setup-timing.tcl
+[12/05 15:45:52     15s] <CMD> set init_verilog asic-post-synth.torus_credit.32.v
+[12/05 15:45:52     15s] <CMD> set init_top_cell torus_credit_D_W32
+[12/05 15:45:52     15s] <CMD> set init_lef_file /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Back_End/lef/tcbn65gplus_200a/lef/tcbn65gplus_9lmT2.lef
+[12/05 15:45:52     15s] <CMD> set init_gnd_net VSS
+[12/05 15:45:52     15s] <CMD> set init_pwr_net VDD
+[12/05 15:45:52     15s] <CMD> init_design
+[12/05 15:45:52     15s] #% Begin Load MMMC data ... (date=12/05 15:45:52, mem=910.6M)
+[12/05 15:45:52     15s] #% End Load MMMC data ... (date=12/05 15:45:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=911.5M, current mem=911.5M)
+[12/05 15:45:52     15s] 
+[12/05 15:45:52     15s] Loading LEF file /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Back_End/lef/tcbn65gplus_200a/lef/tcbn65gplus_9lmT2.lef ...
+[12/05 15:45:52     15s] Set DBUPerIGU to M2 pitch 400.
+[12/05 15:45:52     16s] **WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/05 15:45:52     16s] Type 'man IMPLF-200' for more detail.
+[12/05 15:45:52     16s] 
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[12/05 15:45:52     16s] Loading view definition file from setup-timing.tcl
+[12/05 15:45:52     16s] Reading wcl_slow timing library '/CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib' ...
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'OD18DCAP64'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'OD18DCAP32'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'OD18DCAP16'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP8'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP64'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP4'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP32'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP16'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /CMC/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gpluswc.lib)
+[12/05 15:45:55     18s] Read 816 cells in library 'tcbn65gpluswc' 
+[12/05 15:45:55     18s] Ending "PreSetAnalysisView" (total cpu=0:00:02.7, real=0:00:03.0, peak res=1104.3M, current mem=949.1M)
+[12/05 15:45:55     18s] *** End library_loading (cpu=0.05min, real=0.05min, mem=96.5M, fe_cpu=0.31min, fe_real=0.35min, fe_mem=1064.6M) ***
+[12/05 15:45:55     18s] **ERROR: (IMPSYT-16038):	The specified file 'asic-post-synth.torus_credit.32.v' could not be found. Check your file system, correct the file name.
+[12/05 15:45:55     18s] **ERROR: (IMPIMEX-7008):	No netlist files are found.
+[12/05 15:45:55     18s] **ERROR: (IMPSYT-6692):	Invalid return code while executing 'asic-par.tcl' was returned and script processing was stopped. Review the following error in 'asic-par.tcl' then restart.
+[12/05 15:45:55     18s] Error info: asic-par.tcl: 
+[12/05 15:45:55     18s]     while executing
+[12/05 15:45:55     18s] "error $msg"
+[12/05 15:45:55     18s]     (procedure "apply_design" line 34)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "apply_design $loadViewDefinition"
+[12/05 15:45:55     18s]     (procedure "init_design" line 407)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "init_design"
+[12/05 15:45:55     18s]     (file "asic-par.tcl" line 8)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "::se_source_orig asic-par.tcl"
+[12/05 15:45:55     18s]     ("uplevel" body line 1)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "uplevel [concat ::se_source_orig $args]"
+[12/05 15:45:55     18s]     (procedure "source" line 194)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "source asic-par.tcl"
+[12/05 15:45:55     18s]     ("uplevel" body line 1)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "uplevel #0 source asic-par.tcl"
+[12/05 15:45:55     18s]     ("eval" body line 1)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "eval {uplevel #0 source asic-par.tcl}"
+[12/05 15:45:55     18s]     (in namespace inscope "::" script line 1)
+[12/05 15:45:55     18s]     invoked from within
+[12/05 15:45:55     18s] "namespace inscope :: eval "uplevel #0 source $fileName"".
+[12/05 15:46:29     18s] **INFO (INTERRUPT): The current script will stop before next command.
+[12/05 15:46:29     18s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[12/05 15:46:31     18s] Innovus terminated by user interrupt.
+[12/05 15:46:31     18s] 
+[12/05 15:46:31     18s] *** Memory Usage v#1 (Current mem = 1060.633M, initial mem = 486.906M) ***
+[12/05 15:46:31     18s] 
+[12/05 15:46:31     18s] *** Summary of all messages that are not suppressed in this session:
+[12/05 15:46:31     18s] Severity  ID               Count  Summary                                  
+[12/05 15:46:31     18s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/05 15:46:31     18s] ERROR     IMPSYT-6692          1  Invalid return code while executing '%s'...
+[12/05 15:46:31     18s] ERROR     IMPSYT-16038         1  The specified file '%s' could not be fou...
+[12/05 15:46:31     18s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[12/05 15:46:31     18s] ERROR     IMPIMEX-7008         1  No netlist files are found.              
+[12/05 15:46:31     18s] WARNING   TECHLIB-302         10  No function defined for cell '%s'. The c...
+[12/05 15:46:31     18s] *** Message Summary: 12 warning(s), 3 error(s)
+[12/05 15:46:31     18s] 
+[12/05 15:46:31     18s] --- Ending "Innovus" (totcpu=0:00:18.8, real=0:00:57.0, mem=1060.6M) ---

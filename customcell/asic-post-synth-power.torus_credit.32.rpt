@@ -1,0 +1,337 @@
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db'
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db'
+Loading db file '/CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db'
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : torus_credit_D_W32
+Version: R-2020.09-SP1
+Date   : Sat Dec  7 22:02:49 2024
+****************************************
+
+
+Library(s) Used:
+
+    tcbn65gplusbc (File: /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db)
+    low_swing_rx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db)
+    torus_xbar_1b_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db)
+    low_swing_tx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db)
+
+
+Operating Conditions: BCCOM   Library: tcbn65gplusbc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+torus_credit_D_W32     ZeroWireload      tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_0 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_0 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_0 ZeroWireload tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X0_Y0 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X1_Y0 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X2_Y0 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X3_Y0 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X0_Y1 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X1_Y1 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X2_Y1 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X3_Y1 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X0_Y2 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X1_Y2 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X2_Y2 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X3_Y2 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X0_Y3 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X1_Y3 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X2_Y3 ZeroWireload  tcbn65gplusbc
+DOR_CREDIT_X_W2_Y_W2_X3_Y3 ZeroWireload  tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_0 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_1 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_2 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_3 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_4 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_5 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_6 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_7 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_8 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_9 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_10 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_11 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_12 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_13 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_14 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_15 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_1 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_2 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_3 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_4 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_5 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_6 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_7 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_8 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_9 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_10 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_11 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_12 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_13 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_14 ZeroWireload tcbn65gplusbc
+credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_15 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_1 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_2 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_3 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_4 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_5 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_6 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_7 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_8 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_9 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_10 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_11 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_12 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_13 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_14 ZeroWireload tcbn65gplusbc
+credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_15 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_1 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_2 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_3 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_4 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_5 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_6 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_7 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_8 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_9 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_10 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_11 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_12 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_13 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_14 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_15 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_16 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_17 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_18 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_19 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_20 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_21 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_22 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_23 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_24 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_25 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_26 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_27 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_28 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_29 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_30 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_31 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_32 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_33 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_34 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_35 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_36 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_37 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_38 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_39 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_40 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_41 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_42 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_43 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_44 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_45 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_46 ZeroWireload tcbn65gplusbc
+fifo32_DEPTH321_WIDTH36_RLATENCY0_47 ZeroWireload tcbn65gplusbc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+torus_credit_D_W32                        0.577  437.280 1.41e+07  451.947 100.0
+  ys[3].xs[3].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.94e-02   26.909 8.56e+05   27.785   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X3_Y3) 1.16e-03 1.80e-03 1.06e+03 4.01e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_1) 3.32e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_1) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_2) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_3) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_1) 9.30e-03    0.144 8.18e+03    0.161   0.0
+  ys[3].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.67e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_1) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[3].xs[2].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.96e-02   26.910 8.56e+05   27.786   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X2_Y3) 1.32e-03 2.22e-03 1.04e+03 4.58e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_2) 3.32e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_4) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_5) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_6) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_2) 9.32e-03    0.144 8.22e+03    0.161   0.0
+  ys[3].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_2) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[3].xs[1].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.71e-02   26.903 8.56e+05   27.776   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X1_Y3) 1.80e-03 2.95e-03 1.05e+03 5.80e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_3) 3.37e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_7) 1.07e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_8) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_9) 1.07e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_3) 6.14e-03    0.135 8.24e+03    0.150   0.0
+  ys[3].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_3) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[3].xs[0].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y3_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.75e-02   26.906 8.56e+05   27.780   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X0_Y3) 1.51e-03 2.89e-03 1.19e+03 5.59e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_4) 4.05e-03   26.136 8.25e+05   26.965   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_10) 1.18e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_11) 1.19e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_12) 1.21e-03    8.696 2.72e+05    8.970   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_4) 6.12e-03    0.136 8.20e+03    0.151   0.0
+  ys[3].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.74e-02    0.417 1.36e+04    0.448   0.1
+    regulator (token_bucket_SIGMA3_RATE20_4) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[2].xs[3].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.95e-02   26.910 8.56e+05   27.785   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X3_Y2) 1.16e-03 1.80e-03 1.10e+03 4.06e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_5) 3.33e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_13) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_14) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_15) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_5) 9.30e-03    0.144 8.18e+03    0.161   0.0
+  ys[2].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_5) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[2].xs[2].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.95e-02   26.910 8.56e+05   27.786   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X2_Y2) 1.16e-03 2.13e-03 1.17e+03 4.45e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_6) 3.32e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_16) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_17) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_18) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_6) 9.32e-03    0.144 8.22e+03    0.161   0.0
+  ys[2].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_6) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[2].xs[1].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.70e-02   26.903 8.61e+05   27.781   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X1_Y2) 1.65e-03 2.64e-03 1.17e+03 5.47e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_7) 3.44e-03   26.135 8.31e+05   26.969   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_19) 1.09e-03    8.696 2.74e+05    8.971   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_20) 1.09e-03    8.696 2.74e+05    8.971   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_21) 1.09e-03    8.696 2.73e+05    8.970   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_7) 6.16e-03    0.135 8.22e+03    0.150   0.0
+  ys[2].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_7) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[2].xs[0].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y2_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.77e-02   26.906 8.56e+05   27.780   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X0_Y2) 1.71e-03 2.84e-03 1.31e+03 5.86e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_8) 4.06e-03   26.136 8.25e+05   26.965   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_22) 1.18e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_23) 1.19e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_24) 1.21e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_8) 6.12e-03    0.136 8.19e+03    0.151   0.0
+  ys[2].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.74e-02    0.417 1.36e+04    0.448   0.1
+    regulator (token_bucket_SIGMA3_RATE20_8) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[1].xs[3].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.95e-02   26.910 8.56e+05   27.785   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X3_Y1) 1.16e-03 2.15e-03 1.10e+03 4.41e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_9) 3.33e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_25) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_26) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_27) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_9) 9.30e-03    0.144 8.18e+03    0.161   0.0
+  ys[1].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_9) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[1].xs[2].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.95e-02   26.910 8.56e+05   27.786   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X2_Y1) 1.16e-03 2.48e-03 1.18e+03 4.81e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_10) 3.32e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_28) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_29) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_30) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_10) 9.32e-03    0.144 8.22e+03    0.161   0.0
+  ys[1].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_10) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[1].xs[1].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.74e-02   26.910 8.61e+05   27.788   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X1_Y1) 1.97e-03 3.84e-03 1.18e+03 6.99e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_11) 3.44e-03   26.135 8.31e+05   26.969   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_31) 1.09e-03    8.696 2.74e+05    8.971   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_32) 1.09e-03    8.696 2.74e+05    8.971   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_33) 1.09e-03    8.696 2.73e+05    8.970   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_11) 6.16e-03    0.135 8.22e+03    0.150   0.0
+  ys[1].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 2.32e-02    0.420 1.37e+04    0.457   0.1
+    regulator (token_bucket_SIGMA3_RATE20_11) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[1].xs[0].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y1_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.80e-02   26.913 8.56e+05   27.788   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X0_Y1) 2.01e-03 3.84e-03 1.32e+03 7.17e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_12) 4.06e-03   26.136 8.25e+05   26.965   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_34) 1.18e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_35) 1.19e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_36) 1.21e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_12) 6.12e-03    0.136 8.19e+03    0.151   0.0
+  ys[1].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 2.46e-02    0.420 1.37e+04    0.459   0.1
+    regulator (token_bucket_SIGMA3_RATE20_12) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[0].xs[3].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X3_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.94e-02   26.910 8.56e+05   27.785   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X3_Y0) 1.16e-03 1.80e-03 1.14e+03 4.10e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_13) 3.33e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_37) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_38) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_39) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_13) 9.32e-03    0.144 8.22e+03    0.161   0.0
+  ys[0].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_13) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[0].xs[2].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X2_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.96e-02   26.910 8.56e+05   27.786   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X2_Y0) 1.32e-03 2.21e-03 1.13e+03 4.66e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_14) 3.32e-03   26.135 8.25e+05   26.963   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_40) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_41) 1.05e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_42) 1.05e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_14) 9.32e-03    0.144 8.22e+03    0.161   0.0
+  ys[0].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_14) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[0].xs[1].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X1_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.74e-02   26.903 8.57e+05   27.777   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X1_Y0) 2.00e-03 3.08e-03 1.14e+03 6.21e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_15) 3.44e-03   26.135 8.26e+05   26.964   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_43) 1.09e-03    8.696 2.73e+05    8.970   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_44) 1.09e-03    8.696 2.72e+05    8.969   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_45) 1.09e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_15) 6.16e-03    0.135 8.25e+03    0.150   0.0
+  ys[0].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.66e-02    0.417 1.36e+04    0.447   0.1
+    regulator (token_bucket_SIGMA3_RATE20_15) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+  ys[0].xs[0].torus_switch_xy (torus_switch_credit_VC_W3_X_W2_Y_W2_D_W32_X_MAX4_Y_MAX4_X0_Y0_I_to_east_rx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32I_from_west_tx_noc_if__VC_W_3_X_W_2_Y_W_2_D_W_32) 1.67e-02   26.904 8.58e+05   27.778   6.1
+    dor_credit_inst (DOR_CREDIT_X_W2_Y_W2_X0_Y0) 1.92e-03 3.17e-03 1.28e+03 6.37e-03   0.0
+    west_conn_rx (credit_bp_rx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_from_tx_noc_if_receiver_VC_W_3_X_W_2_Y_W_2_D_W_32_0) 3.86e-03   26.135 8.27e+05   26.966   6.0
+      gen_vc_logic[2].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_46) 1.18e-03    8.696 2.73e+05    8.971   2.0
+      gen_vc_logic[1].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_47) 1.19e-03    8.696 2.73e+05    8.970   2.0
+      gen_vc_logic[0].vc_fifo (fifo32_DEPTH321_WIDTH36_RLATENCY0_0) 1.02e-03    8.696 2.72e+05    8.969   2.0
+    east_conn_tx (credit_bp_tx_VC_W3_D_W32_X_W2_Y_W2_A_W4_DEPTH32_I_to_rx_noc_if_transmitter_VC_W_3_X_W_2_Y_W_2_D_W_32_0) 5.07e-03    0.134 8.24e+03    0.147   0.0
+  ys[0].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.72e-02    0.417 1.36e+04    0.448   0.1
+    regulator (token_bucket_SIGMA3_RATE20_0) 6.39e-03 7.67e-02 2.37e+03 8.55e-02   0.0
+1

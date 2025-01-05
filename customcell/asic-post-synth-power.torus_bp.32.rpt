@@ -1,0 +1,209 @@
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db'
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db'
+Loading db file '/CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db'
+Loading db file '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : torus_bp_D_W32
+Version: R-2020.09-SP1
+Date   : Sat Dec  7 21:31:58 2024
+****************************************
+
+
+Library(s) Used:
+
+    tcbn65gplusbc (File: /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_140b/tcbn65gplusbc.db)
+    low_swing_rx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_rx_bc.db)
+    torus_xbar_1b_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/torus_xbar_1b_bc.db)
+    low_swing_tx_bc (File: /home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/customcell/low_swing_tx_bc.db)
+
+
+Operating Conditions: BCCOM   Library: tcbn65gplusbc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+torus_bp_D_W32         ZeroWireload      tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y0 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y0 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y0 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y0 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y1 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y1 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y1 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y1 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y2 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y2 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y2 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y2 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y3 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y3 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y3 ZeroWireload tcbn65gplusbc
+client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4 ZeroWireload tcbn65gplusbc
+torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y3 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_0 ZeroWireload tcbn65gplusbc
+shadow_reg_combi_D_W36_0 ZeroWireload    tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X0_Y0 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X1_Y0 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X2_Y0 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X3_Y0 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X0_Y1 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X1_Y1 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X2_Y1 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X3_Y1 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X0_Y2 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X1_Y2 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X2_Y2 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X3_Y2 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X0_Y3 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X1_Y3 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X2_Y3 ZeroWireload      tcbn65gplusbc
+DOR_BP_X_W2_Y_W2_X3_Y3 ZeroWireload      tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_1 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_2 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_3 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_4 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_5 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_6 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_7 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_8 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_9 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_10 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_11 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_12 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_13 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_14 ZeroWireload tcbn65gplusbc
+token_bucket_SIGMA3_RATE20_15 ZeroWireload tcbn65gplusbc
+shadow_reg_combi_D_W36_1 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_2 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_3 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_4 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_5 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_6 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_7 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_8 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_9 ZeroWireload    tcbn65gplusbc
+shadow_reg_combi_D_W36_10 ZeroWireload   tcbn65gplusbc
+shadow_reg_combi_D_W36_11 ZeroWireload   tcbn65gplusbc
+shadow_reg_combi_D_W36_12 ZeroWireload   tcbn65gplusbc
+shadow_reg_combi_D_W36_13 ZeroWireload   tcbn65gplusbc
+shadow_reg_combi_D_W36_14 ZeroWireload   tcbn65gplusbc
+shadow_reg_combi_D_W36_15 ZeroWireload   tcbn65gplusbc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+torus_bp_D_W32                            0.412   26.169 8.36e+05   27.417 100.0
+  ys[3].xs[3].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y3) 8.66e-03    1.223 3.17e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X3_Y3) 8.53e-04 6.77e-04  933.968 2.46e-03   0.0
+    s0 (shadow_reg_combi_D_W36_1)      1.67e-04    0.285 1.02e+04    0.295   1.1
+  ys[3].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_1) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[3].xs[2].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y3) 8.66e-03    1.223 3.16e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X2_Y3) 8.53e-04 1.01e-03  931.791 2.80e-03   0.0
+    s0 (shadow_reg_combi_D_W36_2)      1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[3].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_2) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[3].xs[1].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y3) 9.42e-03    1.225 3.15e+04    1.266   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X1_Y3) 1.46e-03 1.75e-03  919.215 4.13e-03   0.0
+    s0 (shadow_reg_combi_D_W36_3)      1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[3].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_3) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[3].xs[0].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y3) 9.46e-03    1.225 3.15e+04    1.266   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X0_Y3) 1.48e-03 1.87e-03  837.186 4.19e-03   0.0
+    s0 (shadow_reg_combi_D_W36_4)      1.67e-04    0.285 1.02e+04    0.295   1.1
+  ys[3].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y3_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_4) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[2].xs[3].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y2) 8.68e-03    1.224 3.16e+04    1.264   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X3_Y2) 8.53e-04 1.05e-03  926.324 2.83e-03   0.0
+    s0 (shadow_reg_combi_D_W36_5)      1.93e-04    0.286 1.02e+04    0.296   1.1
+  ys[2].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_5) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[2].xs[2].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y2) 8.66e-03    1.223 3.16e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X2_Y2) 8.53e-04 1.38e-03 1.01e+03 3.24e-03   0.0
+    s0 (shadow_reg_combi_D_W36_6)      1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[2].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_6) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[2].xs[1].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y2) 9.42e-03    1.225 3.15e+04    1.266   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X1_Y2) 1.46e-03 2.12e-03  995.933 4.58e-03   0.0
+    s0 (shadow_reg_combi_D_W36_7)      1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[2].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_7) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[2].xs[0].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y2) 9.46e-03    1.226 3.16e+04    1.267   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X0_Y2) 1.48e-03 2.24e-03  962.265 4.69e-03   0.0
+    s0 (shadow_reg_combi_D_W36_8)      1.67e-04    0.285 1.02e+04    0.295   1.1
+  ys[2].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y2_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_8) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[1].xs[3].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y1) 8.66e-03    1.223 3.16e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X3_Y1) 8.53e-04 6.89e-04  926.765 2.47e-03   0.0
+    s0 (shadow_reg_combi_D_W36_9)      1.67e-04    0.285 1.02e+04    0.295   1.1
+  ys[1].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_9) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[1].xs[2].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y1) 8.66e-03    1.223 3.16e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X2_Y1) 8.53e-04 1.01e-03 1.01e+03 2.87e-03   0.0
+    s0 (shadow_reg_combi_D_W36_10)     1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[1].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_10) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[1].xs[1].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y1) 9.84e-03    1.231 3.15e+04    1.273   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X1_Y1) 1.83e-03 2.45e-03 1.00e+03 5.29e-03   0.0
+    s0 (shadow_reg_combi_D_W36_11)     1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[1].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 2.21e-02    0.412 1.14e+04    0.445   1.6
+    regulator (token_bucket_SIGMA3_RATE20_11) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[1].xs[0].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y1) 9.61e-03    1.232 3.17e+04    1.273   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X0_Y1) 1.56e-03 1.96e-03  974.405 4.49e-03   0.0
+    s0 (shadow_reg_combi_D_W36_12)     1.67e-04    0.285 1.02e+04    0.295   1.1
+  ys[1].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y1_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 2.29e-02    0.412 1.13e+04    0.446   1.6
+    regulator (token_bucket_SIGMA3_RATE20_12) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[0].xs[3].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X3_Y0) 8.66e-03    1.223 3.15e+04    1.263   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X3_Y0) 8.53e-04 6.91e-04  931.068 2.48e-03   0.0
+    s0 (shadow_reg_combi_D_W36_13)     1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[0].xs[3].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X3_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_13) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[0].xs[2].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X2_Y0) 8.66e-03    1.223 3.08e+04    1.262   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X2_Y0) 8.53e-04 1.02e-03  987.117 2.86e-03   0.0
+    s0 (shadow_reg_combi_D_W36_14)     1.66e-04    0.285 1.00e+04    0.295   1.1
+  ys[0].xs[2].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X2_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_14) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[0].xs[1].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X1_Y0) 9.51e-03    1.225 3.02e+04    1.265   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X1_Y0) 1.56e-03 2.07e-03  980.546 4.61e-03   0.0
+    s0 (shadow_reg_combi_D_W36_15)     1.66e-04    0.285 1.00e+04    0.295   1.1
+  ys[0].xs[1].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X1_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.58e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_15) 6.20e-03 7.68e-02 2.39e+03 8.54e-02   0.3
+  ys[0].xs[0].torus_switch_xy (torus_switch_bp_X_W2_Y_W2_D_W32_X0_Y0) 9.59e-03    1.226 3.03e+04    1.266   4.6
+    dor_bp_inst (DOR_BP_X_W2_Y_W2_X0_Y0) 1.61e-03 2.36e-03 1.03e+03 5.00e-03   0.0
+    s0 (shadow_reg_combi_D_W36_0)      1.66e-04    0.285 1.01e+04    0.295   1.1
+  ys[0].xs[0].client_xy (client_SIGMA3_RATE20_VC_W3_X_W2_Y_W2_X0_Y0_D_W32_N_PACKETS128_X_MAX4_Y_MAX4) 1.59e-02    0.409 1.13e+04    0.436   1.6
+    regulator (token_bucket_SIGMA3_RATE20_0) 6.26e-03 7.67e-02 2.38e+03 8.53e-02   0.3
+1

@@ -1,0 +1,3535 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Design implementation internals
+// See Vtop.h for the primary calling header
+
+#include "Vtop__pch.h"
+#include "Vtop__Syms.h"
+#include "Vtop___024root.h"
+
+VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__3(Vtop___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___nba_sequent__TOP__3\n"); );
+    auto &vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__s_msg 
+        = (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                    ? ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_x_reg) 
+                                       >> 1U) : ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                  ? 
+                                                 ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                                  >> 1U)
+                                                  : (IData)(
+                                                            (vlSelfRef.top__DOT__dut__DOT__i
+                                                             [1U]
+                                                             [3U] 
+                                                             >> 0x23U))))))) 
+            << 0x23U) | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                  ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_x_reg)
+                                                  : 
+                                                 ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                   : (IData)(
+                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                              [1U]
+                                                              [3U] 
+                                                              >> 0x22U))))))) 
+                          << 0x22U) | (((QData)((IData)(
+                                                        (1U 
+                                                         & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                             ? 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_y_reg) 
+                                                             >> 1U)
+                                                             : 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                              ? 
+                                                             ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                              >> 1U)
+                                                              : (IData)(
+                                                                        (vlSelfRef.top__DOT__dut__DOT__i
+                                                                         [1U]
+                                                                         [3U] 
+                                                                         >> 0x21U))))))) 
+                                        << 0x21U) | 
+                                       (((QData)((IData)(
+                                                         (1U 
+                                                          & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_y_reg)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [1U]
+                                                                          [3U] 
+                                                                          >> 0x20U))))))) 
+                                         << 0x20U) 
+                                        | (QData)((IData)(
+                                                          ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? 
+                                                             (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                              >> 0x1fU)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? 
+                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                               >> 0x1fU)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [1U]
+                                                                          [3U] 
+                                                                          >> 0x1fU)))) 
+                                                            << 0x1fU) 
+                                                           | ((0x40000000U 
+                                                               & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                    ? 
+                                                                   (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                    >> 0x1eU)
+                                                                    : 
+                                                                   ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                     ? 
+                                                                    (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                     >> 0x1eU)
+                                                                     : (IData)(
+                                                                               (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1eU)))) 
+                                                                  << 0x1eU)) 
+                                                              | ((0x20000000U 
+                                                                  & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                       ? 
+                                                                      (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                       >> 0x1dU)
+                                                                       : 
+                                                                      ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                        ? 
+                                                                       (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                        >> 0x1dU)
+                                                                        : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1dU)))) 
+                                                                     << 0x1dU)) 
+                                                                 | ((0x10000000U 
+                                                                     & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                          ? 
+                                                                         (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                          >> 0x1cU)
+                                                                          : 
+                                                                         ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                           ? 
+                                                                          (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                           >> 0x1cU)
+                                                                           : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1cU)))) 
+                                                                        << 0x1cU)) 
+                                                                    | ((0x8000000U 
+                                                                        & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                             ? 
+                                                                            (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                             >> 0x1bU)
+                                                                             : 
+                                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                              ? 
+                                                                             (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                              >> 0x1bU)
+                                                                              : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1bU)))) 
+                                                                           << 0x1bU)) 
+                                                                       | ((0x4000000U 
+                                                                           & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                ? 
+                                                                               (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x1aU)
+                                                                                : 
+                                                                               ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1aU)))) 
+                                                                              << 0x1aU)) 
+                                                                          | ((0x2000000U 
+                                                                              & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x19U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x19U)))) 
+                                                                                << 0x19U)) 
+                                                                             | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x18U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x18U)))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x17U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x17U)))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x16U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x16U)))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x15U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x15U)))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x14U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x14U)))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x13U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x13U)))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x12U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x12U)))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x11U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x11U)))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x10U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x10U)))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xfU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xfU)))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xeU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xeU)))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xdU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xdU)))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xcU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xcU)))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xbU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xbU)))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xaU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xaU)))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 9U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 9U)))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 8U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 8U)))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 7U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 7U)))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 6U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 6U)))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 5U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 5U)))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 4U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 4U)))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 3U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 3U)))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 2U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 2U)))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 1U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 1U)))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_data_reg
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSelfRef.top__DOT__dut__DOT__i_ack[1U][3U] = vlSelfRef.top__DOT__dut__DOT____Vcellout__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__i_ack;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target 
+        = ((3U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target)) 
+           | ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v) 
+                >> 2U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__2__KET____DOT__credits))) 
+              << 2U));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target 
+        = ((4U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target)) 
+           | (((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v) 
+                 >> 1U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__1__KET____DOT__credits))) 
+               << 1U) | ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v) 
+                         & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__0__KET____DOT__credits)))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c 
+        = ((0x1000000000ULL & vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c) 
+           | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                       ? ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                          >> 1U) : (IData)(
+                                                           (vlSelfRef.top__DOT__dut__DOT__i
+                                                            [1U]
+                                                            [3U] 
+                                                            >> 0x23U)))))) 
+               << 0x23U) | (((QData)((IData)((1U & 
+                                              ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                : (IData)(
+                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                           [1U]
+                                                           [3U] 
+                                                           >> 0x22U)))))) 
+                             << 0x22U) | (((QData)((IData)(
+                                                           (1U 
+                                                            & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                ? 
+                                                               ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                                >> 1U)
+                                                                : (IData)(
+                                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                                           [1U]
+                                                                           [3U] 
+                                                                           >> 0x21U)))))) 
+                                           << 0x21U) 
+                                          | (((QData)((IData)(
+                                                              (1U 
+                                                               & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [1U]
+                                                                              [3U] 
+                                                                              >> 0x20U)))))) 
+                                              << 0x20U) 
+                                             | (QData)((IData)(
+                                                               ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? 
+                                                                  (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                   >> 0x1fU)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [1U]
+                                                                              [3U] 
+                                                                              >> 0x1fU))) 
+                                                                 << 0x1fU) 
+                                                                | ((0x40000000U 
+                                                                    & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                         ? 
+                                                                        (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                         >> 0x1eU)
+                                                                         : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1eU))) 
+                                                                       << 0x1eU)) 
+                                                                   | ((0x20000000U 
+                                                                       & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                            ? 
+                                                                           (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                            >> 0x1dU)
+                                                                            : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1dU))) 
+                                                                          << 0x1dU)) 
+                                                                      | ((0x10000000U 
+                                                                          & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                               ? 
+                                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                               >> 0x1cU)
+                                                                               : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1cU))) 
+                                                                             << 0x1cU)) 
+                                                                         | ((0x8000000U 
+                                                                             & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1bU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1bU))) 
+                                                                                << 0x1bU)) 
+                                                                            | ((0x4000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x1aU))) 
+                                                                                << 0x1aU)) 
+                                                                               | ((0x2000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x19U))) 
+                                                                                << 0x19U)) 
+                                                                                | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x18U))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x17U))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x16U))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x15U))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x14U))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x13U))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x12U))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x11U))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0x10U))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xfU))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xeU))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xdU))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xcU))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xbU))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 0xaU))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 9U))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 8U))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 7U))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 6U))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 5U))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 4U))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 3U))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 2U))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U] 
+                                                                                >> 1U))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [1U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__s_msg 
+        = (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                    ? ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_x_reg) 
+                                       >> 1U) : ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                  ? 
+                                                 ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                                  >> 1U)
+                                                  : (IData)(
+                                                            (vlSelfRef.top__DOT__dut__DOT__i
+                                                             [2U]
+                                                             [3U] 
+                                                             >> 0x23U))))))) 
+            << 0x23U) | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                  ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_x_reg)
+                                                  : 
+                                                 ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                   : (IData)(
+                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                              [2U]
+                                                              [3U] 
+                                                              >> 0x22U))))))) 
+                          << 0x22U) | (((QData)((IData)(
+                                                        (1U 
+                                                         & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                             ? 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_y_reg) 
+                                                             >> 1U)
+                                                             : 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                              ? 
+                                                             ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                              >> 1U)
+                                                              : (IData)(
+                                                                        (vlSelfRef.top__DOT__dut__DOT__i
+                                                                         [2U]
+                                                                         [3U] 
+                                                                         >> 0x21U))))))) 
+                                        << 0x21U) | 
+                                       (((QData)((IData)(
+                                                         (1U 
+                                                          & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_y_reg)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [2U]
+                                                                          [3U] 
+                                                                          >> 0x20U))))))) 
+                                         << 0x20U) 
+                                        | (QData)((IData)(
+                                                          ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? 
+                                                             (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                              >> 0x1fU)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? 
+                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                               >> 0x1fU)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [2U]
+                                                                          [3U] 
+                                                                          >> 0x1fU)))) 
+                                                            << 0x1fU) 
+                                                           | ((0x40000000U 
+                                                               & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                    ? 
+                                                                   (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                    >> 0x1eU)
+                                                                    : 
+                                                                   ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                     ? 
+                                                                    (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                     >> 0x1eU)
+                                                                     : (IData)(
+                                                                               (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1eU)))) 
+                                                                  << 0x1eU)) 
+                                                              | ((0x20000000U 
+                                                                  & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                       ? 
+                                                                      (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                       >> 0x1dU)
+                                                                       : 
+                                                                      ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                        ? 
+                                                                       (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                        >> 0x1dU)
+                                                                        : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1dU)))) 
+                                                                     << 0x1dU)) 
+                                                                 | ((0x10000000U 
+                                                                     & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                          ? 
+                                                                         (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                          >> 0x1cU)
+                                                                          : 
+                                                                         ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                           ? 
+                                                                          (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                           >> 0x1cU)
+                                                                           : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1cU)))) 
+                                                                        << 0x1cU)) 
+                                                                    | ((0x8000000U 
+                                                                        & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                             ? 
+                                                                            (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                             >> 0x1bU)
+                                                                             : 
+                                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                              ? 
+                                                                             (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                              >> 0x1bU)
+                                                                              : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1bU)))) 
+                                                                           << 0x1bU)) 
+                                                                       | ((0x4000000U 
+                                                                           & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                ? 
+                                                                               (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x1aU)
+                                                                                : 
+                                                                               ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1aU)))) 
+                                                                              << 0x1aU)) 
+                                                                          | ((0x2000000U 
+                                                                              & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x19U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x19U)))) 
+                                                                                << 0x19U)) 
+                                                                             | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x18U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x18U)))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x17U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x17U)))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x16U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x16U)))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x15U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x15U)))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x14U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x14U)))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x13U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x13U)))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x12U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x12U)))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x11U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x11U)))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x10U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x10U)))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xfU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xfU)))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xeU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xeU)))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xdU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xdU)))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xcU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xcU)))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xbU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xbU)))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xaU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xaU)))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 9U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 9U)))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 8U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 8U)))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 7U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 7U)))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 6U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 6U)))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 5U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 5U)))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 4U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 4U)))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 3U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 3U)))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 2U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 2U)))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 1U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 1U)))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_data_reg
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSelfRef.top__DOT__dut__DOT__i_ack[2U][3U] = vlSelfRef.top__DOT__dut__DOT____Vcellout__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__i_ack;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target 
+        = ((3U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target)) 
+           | ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v) 
+                >> 2U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__2__KET____DOT__credits))) 
+              << 2U));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target 
+        = ((4U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target)) 
+           | (((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v) 
+                 >> 1U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__1__KET____DOT__credits))) 
+               << 1U) | ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v) 
+                         & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__0__KET____DOT__credits)))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c 
+        = ((0x1000000000ULL & vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c) 
+           | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                       ? ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                          >> 1U) : (IData)(
+                                                           (vlSelfRef.top__DOT__dut__DOT__i
+                                                            [2U]
+                                                            [3U] 
+                                                            >> 0x23U)))))) 
+               << 0x23U) | (((QData)((IData)((1U & 
+                                              ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                : (IData)(
+                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                           [2U]
+                                                           [3U] 
+                                                           >> 0x22U)))))) 
+                             << 0x22U) | (((QData)((IData)(
+                                                           (1U 
+                                                            & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                ? 
+                                                               ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                                >> 1U)
+                                                                : (IData)(
+                                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                                           [2U]
+                                                                           [3U] 
+                                                                           >> 0x21U)))))) 
+                                           << 0x21U) 
+                                          | (((QData)((IData)(
+                                                              (1U 
+                                                               & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [2U]
+                                                                              [3U] 
+                                                                              >> 0x20U)))))) 
+                                              << 0x20U) 
+                                             | (QData)((IData)(
+                                                               ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? 
+                                                                  (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                   >> 0x1fU)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [2U]
+                                                                              [3U] 
+                                                                              >> 0x1fU))) 
+                                                                 << 0x1fU) 
+                                                                | ((0x40000000U 
+                                                                    & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                         ? 
+                                                                        (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                         >> 0x1eU)
+                                                                         : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1eU))) 
+                                                                       << 0x1eU)) 
+                                                                   | ((0x20000000U 
+                                                                       & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                            ? 
+                                                                           (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                            >> 0x1dU)
+                                                                            : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1dU))) 
+                                                                          << 0x1dU)) 
+                                                                      | ((0x10000000U 
+                                                                          & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                               ? 
+                                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                               >> 0x1cU)
+                                                                               : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1cU))) 
+                                                                             << 0x1cU)) 
+                                                                         | ((0x8000000U 
+                                                                             & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1bU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1bU))) 
+                                                                                << 0x1bU)) 
+                                                                            | ((0x4000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x1aU))) 
+                                                                                << 0x1aU)) 
+                                                                               | ((0x2000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x19U))) 
+                                                                                << 0x19U)) 
+                                                                                | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x18U))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x17U))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x16U))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x15U))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x14U))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x13U))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x12U))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x11U))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0x10U))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xfU))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xeU))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xdU))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xcU))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xbU))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 0xaU))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 9U))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 8U))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 7U))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 6U))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 5U))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 4U))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 3U))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 2U))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U] 
+                                                                                >> 1U))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [2U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__s_msg 
+        = (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                    ? ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_x_reg) 
+                                       >> 1U) : ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                  ? 
+                                                 ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                                  >> 1U)
+                                                  : (IData)(
+                                                            (vlSelfRef.top__DOT__dut__DOT__i
+                                                             [3U]
+                                                             [3U] 
+                                                             >> 0x23U))))))) 
+            << 0x23U) | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                  ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_x_reg)
+                                                  : 
+                                                 ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                   : (IData)(
+                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                              [3U]
+                                                              [3U] 
+                                                              >> 0x22U))))))) 
+                          << 0x22U) | (((QData)((IData)(
+                                                        (1U 
+                                                         & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                             ? 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_y_reg) 
+                                                             >> 1U)
+                                                             : 
+                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                              ? 
+                                                             ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                              >> 1U)
+                                                              : (IData)(
+                                                                        (vlSelfRef.top__DOT__dut__DOT__i
+                                                                         [3U]
+                                                                         [3U] 
+                                                                         >> 0x21U))))))) 
+                                        << 0x21U) | 
+                                       (((QData)((IData)(
+                                                         (1U 
+                                                          & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_y_reg)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [3U]
+                                                                          [3U] 
+                                                                          >> 0x20U))))))) 
+                                         << 0x20U) 
+                                        | (QData)((IData)(
+                                                          ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                              ? 
+                                                             (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                              >> 0x1fU)
+                                                              : 
+                                                             ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                               ? 
+                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                               >> 0x1fU)
+                                                               : (IData)(
+                                                                         (vlSelfRef.top__DOT__dut__DOT__i
+                                                                          [3U]
+                                                                          [3U] 
+                                                                          >> 0x1fU)))) 
+                                                            << 0x1fU) 
+                                                           | ((0x40000000U 
+                                                               & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                    ? 
+                                                                   (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                    >> 0x1eU)
+                                                                    : 
+                                                                   ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                     ? 
+                                                                    (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                     >> 0x1eU)
+                                                                     : (IData)(
+                                                                               (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1eU)))) 
+                                                                  << 0x1eU)) 
+                                                              | ((0x20000000U 
+                                                                  & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                       ? 
+                                                                      (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                       >> 0x1dU)
+                                                                       : 
+                                                                      ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                        ? 
+                                                                       (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                        >> 0x1dU)
+                                                                        : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1dU)))) 
+                                                                     << 0x1dU)) 
+                                                                 | ((0x10000000U 
+                                                                     & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                          ? 
+                                                                         (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                          >> 0x1cU)
+                                                                          : 
+                                                                         ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                           ? 
+                                                                          (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                           >> 0x1cU)
+                                                                           : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1cU)))) 
+                                                                        << 0x1cU)) 
+                                                                    | ((0x8000000U 
+                                                                        & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                             ? 
+                                                                            (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                             >> 0x1bU)
+                                                                             : 
+                                                                            ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                              ? 
+                                                                             (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                              >> 0x1bU)
+                                                                              : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1bU)))) 
+                                                                           << 0x1bU)) 
+                                                                       | ((0x4000000U 
+                                                                           & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                ? 
+                                                                               (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x1aU)
+                                                                                : 
+                                                                               ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1aU)))) 
+                                                                              << 0x1aU)) 
+                                                                          | ((0x2000000U 
+                                                                              & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x19U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x19U)))) 
+                                                                                << 0x19U)) 
+                                                                             | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x18U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x18U)))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x17U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x17U)))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x16U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x16U)))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x15U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x15U)))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x14U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x14U)))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x13U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x13U)))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x12U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x12U)))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x11U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x11U)))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0x10U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x10U)))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xfU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xfU)))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xeU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xeU)))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xdU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xdU)))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xcU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xcU)))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xbU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xbU)))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 0xaU)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xaU)))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 9U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 9U)))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 8U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 8U)))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 7U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 7U)))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 6U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 6U)))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 5U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 5U)))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 4U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 4U)))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 3U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 3U)))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 2U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 2U)))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? 
+                                                                                (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg 
+                                                                                >> 1U)
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 1U)))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_n2s)
+                                                                                 ? vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_data_reg
+                                                                                 : 
+                                                                                ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2s)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSelfRef.top__DOT__dut__DOT__i_ack[3U][3U] = vlSelfRef.top__DOT__dut__DOT____Vcellout__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__i_ack;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target 
+        = ((3U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target)) 
+           | ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v) 
+                >> 2U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__2__KET____DOT__credits))) 
+              << 2U));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target 
+        = ((4U & (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target)) 
+           | (((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v) 
+                 >> 1U) & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__1__KET____DOT__credits))) 
+               << 1U) | ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v) 
+                         & (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__east_conn_tx__DOT__gen_vc_logic__BRA__0__KET____DOT__credits)))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c 
+        = ((0x1000000000ULL & vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c) 
+           | (((QData)((IData)((1U & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                       ? ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x) 
+                                          >> 1U) : (IData)(
+                                                           (vlSelfRef.top__DOT__dut__DOT__i
+                                                            [3U]
+                                                            [3U] 
+                                                            >> 0x23U)))))) 
+               << 0x23U) | (((QData)((IData)((1U & 
+                                              ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_x)
+                                                : (IData)(
+                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                           [3U]
+                                                           [3U] 
+                                                           >> 0x22U)))))) 
+                             << 0x22U) | (((QData)((IData)(
+                                                           (1U 
+                                                            & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                ? 
+                                                               ((IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y) 
+                                                                >> 1U)
+                                                                : (IData)(
+                                                                          (vlSelfRef.top__DOT__dut__DOT__i
+                                                                           [3U]
+                                                                           [3U] 
+                                                                           >> 0x21U)))))) 
+                                           << 0x21U) 
+                                          | (((QData)((IData)(
+                                                              (1U 
+                                                               & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_y)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [3U]
+                                                                              [3U] 
+                                                                              >> 0x20U)))))) 
+                                              << 0x20U) 
+                                             | (QData)((IData)(
+                                                               ((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                   ? 
+                                                                  (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                   >> 0x1fU)
+                                                                   : (IData)(
+                                                                             (vlSelfRef.top__DOT__dut__DOT__i
+                                                                              [3U]
+                                                                              [3U] 
+                                                                              >> 0x1fU))) 
+                                                                 << 0x1fU) 
+                                                                | ((0x40000000U 
+                                                                    & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                         ? 
+                                                                        (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                         >> 0x1eU)
+                                                                         : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1eU))) 
+                                                                       << 0x1eU)) 
+                                                                   | ((0x20000000U 
+                                                                       & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                            ? 
+                                                                           (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                            >> 0x1dU)
+                                                                            : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1dU))) 
+                                                                          << 0x1dU)) 
+                                                                      | ((0x10000000U 
+                                                                          & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                               ? 
+                                                                              (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                               >> 0x1cU)
+                                                                               : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1cU))) 
+                                                                             << 0x1cU)) 
+                                                                         | ((0x8000000U 
+                                                                             & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1bU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1bU))) 
+                                                                                << 0x1bU)) 
+                                                                            | ((0x4000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x1aU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x1aU))) 
+                                                                                << 0x1aU)) 
+                                                                               | ((0x2000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x19U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x19U))) 
+                                                                                << 0x19U)) 
+                                                                                | ((0x1000000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x18U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x18U))) 
+                                                                                << 0x18U)) 
+                                                                                | ((0x800000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x17U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x17U))) 
+                                                                                << 0x17U)) 
+                                                                                | ((0x400000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x16U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x16U))) 
+                                                                                << 0x16U)) 
+                                                                                | ((0x200000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x15U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x15U))) 
+                                                                                << 0x15U)) 
+                                                                                | ((0x100000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x14U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x14U))) 
+                                                                                << 0x14U)) 
+                                                                                | ((0x80000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x13U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x13U))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x12U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x12U))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x11U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x11U))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0x10U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0x10U))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xfU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xfU))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xeU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xeU))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xdU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xdU))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xcU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xcU))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xbU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xbU))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 0xaU)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 0xaU))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 9U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 9U))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 8U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 8U))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 7U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 7U))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 6U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 6U))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 5U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 5U))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 4U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 4U))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 3U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 3U))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 2U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 2U))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & (((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? 
+                                                                                (vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d 
+                                                                                >> 1U)
+                                                                                 : (IData)(
+                                                                                (vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U] 
+                                                                                >> 1U))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & ((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_w2e)
+                                                                                 ? vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_d
+                                                                                 : (IData)(
+                                                                                vlSelfRef.top__DOT__dut__DOT__i
+                                                                                [3U]
+                                                                                [3U])))))))))))))))))))))))))))))))))))))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [0U][0U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [1U][0U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [2U][0U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [3U][0U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [0U][1U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [1U][1U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [2U][1U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [3U][1U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [0U][2U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [1U][2U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [2U][2U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [3U][2U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [0U][3U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [1U][3U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [2U][3U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__client_xy__DOT__packet_num)));
+    vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__consume 
+        = ((0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__regulator__DOT__number_tokens)) 
+           & (((~ (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack)) 
+               | (vlSelfRef.top__DOT__dut__DOT__i_ack
+                  [3U][3U] & (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__waiting_for_ack))) 
+              & VL_GTS_III(32, 0xcU, vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__client_xy__DOT__packet_num)));
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet 
+        = (((QData)((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c)) 
+            << 4U) | (QData)((IData)((0xfU & (IData)(
+                                                     (vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_out_c 
+                                                      >> 0x20U))))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.packet;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_target;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[1U][0U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [1U][0U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [1U][0U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[2U][0U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [2U][0U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [2U][0U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[3U][0U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [3U][0U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [3U][0U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[0U][0U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [0U][0U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [0U][0U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[1U][1U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [1U][1U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [1U][1U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[2U][1U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [2U][1U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [2U][1U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[3U][1U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [3U][1U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [3U][1U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[0U][1U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [0U][1U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [0U][1U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[1U][2U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [1U][2U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [1U][2U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[2U][2U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [2U][2U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [2U][2U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[3U][2U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [3U][2U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [3U][2U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[0U][2U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [0U][2U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [0U][2U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[1U][3U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [1U][3U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [1U][3U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[2U][3U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [2U][3U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [2U][3U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[3U][3U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [3U][3U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [3U][3U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_switch[0U][3U] 
+        = (1U & (~ ((((((((((IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_o_v) 
+                            | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__dor_s_v)) 
+                           | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__o_v_reg)) 
+                          | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__s_out_v_reg)) 
+                         | (IData)((vlSelfRef.top__DOT__dut__DOT__n
+                                    [0U][3U] >> 0x24U))) 
+                        | (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__n_in_v_reg)) 
+                       | (IData)((vlSelfRef.top__DOT__dut__DOT__i
+                                  [0U][3U] >> 0x24U))) 
+                      | (0U != (IData)(vlSelfRef.top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__e_v))) 
+                     | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__torus_switch_xy__DOT__west_conn_rx.o_v))) 
+                    | (0U != (IData)(vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_target)))));
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.packet 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.packet;
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        vlSelfRef.top__DOT__dut__DOT__done_switch[0U]
+        [0U];
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [0U][1U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [0U][2U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [0U][3U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [1U][0U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [1U][1U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [1U][2U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [1U][3U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [2U][0U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [2U][1U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [2U][2U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [2U][3U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [3U][0U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [3U][1U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [3U][2U]);
+    vlSelfRef.top__DOT__dut__DOT__done_all_switch = 
+        ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch) 
+         & vlSelfRef.top__DOT__dut__DOT__done_switch
+         [3U][3U]);
+    vlSelfRef.top__DOT__done = ((IData)(vlSelfRef.top__DOT__dut__DOT__done_all_pe) 
+                                & (IData)(vlSelfRef.top__DOT__dut__DOT__done_all_switch));
+}
+
+VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__4(Vtop___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___nba_sequent__TOP__4\n"); );
+    auto &vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_west.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__0__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__0__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__1__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__1__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__2__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__2__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__3__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__0__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__0__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__1__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__1__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__2__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+    vlSymsp->TOP__top__DOT__dut__DOT__ys__BRA__3__KET____DOT__xs__BRA__2__KET____DOT__noc_if_inst_east.vc_credit_gnt 
+        = vlSymsp->TOP__top__DOT__dut__DOT__yss__BRA__3__KET____DOT__xss__BRA__3__KET____DOT__noc_if_inst_conn.vc_credit_gnt;
+}

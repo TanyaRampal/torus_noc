@@ -1,0 +1,77 @@
+VERSION 5.7 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO low_swing_rx
+  CLASS CORE ;
+  ORIGIN -0.4 -0.3 ;
+  FOREIGN low_swing_rx 0.4 0.3 ;
+  SIZE 7.08 BY 2.205 ;
+  SYMMETRY X Y ;
+  SITE core ;
+  PIN o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 7.1 1.155 7.19 1.49 ;
+        RECT 5.74 1.155 7.19 1.245 ;
+        RECT 6.56 0.875 6.65 1.245 ;
+        RECT 6.15 1.155 6.24 1.745 ;
+        RECT 4.51 1.355 6.24 1.445 ;
+        RECT 5.74 0.875 5.83 1.245 ;
+        RECT 5.33 1.355 5.42 1.745 ;
+        RECT 4.51 1.355 4.6 1.745 ;
+    END
+  END o
+  PIN vdd
+    DIRECTION INPUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER M1 ;
+        RECT 0.64 2.1 7 2.43 ;
+        RECT 6.56 1.575 6.65 2.43 ;
+        RECT 5.74 1.575 5.83 2.43 ;
+        RECT 4.92 1.575 5.01 2.43 ;
+        RECT 4.015 1.575 4.105 2.43 ;
+        RECT 3.195 1.575 3.285 2.43 ;
+        RECT 2.375 1.575 2.465 2.43 ;
+        RECT 1.555 1.575 1.645 2.43 ;
+    END
+  END vdd
+  PIN vss
+    DIRECTION INPUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER M1 ;
+        RECT 0.64 0.3 7 0.63 ;
+        RECT 6.15 0.3 6.24 1.045 ;
+        RECT 5.33 0.3 5.42 1.045 ;
+        RECT 4.015 0.3 4.105 1.045 ;
+        RECT 3.195 0.3 3.285 1.045 ;
+    END
+  END vss
+  PIN i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 0.7 1.5 1.145 1.59 ;
+        RECT 1.055 1.375 1.145 1.59 ;
+        RECT 0.7 1.5 0.79 1.79 ;
+    END
+  END i
+  OBS
+    LAYER M1 ;
+      RECT 3.605 1.355 3.695 1.745 ;
+      RECT 2.785 0.875 2.875 1.745 ;
+      RECT 1.965 1.355 2.055 1.745 ;
+      RECT 1.965 1.355 3.695 1.445 ;
+      RECT 2.785 1.155 4.585 1.245 ;
+      RECT 3.605 0.875 3.695 1.245 ;
+  END
+END low_swing_rx
+
+END LIBRARY

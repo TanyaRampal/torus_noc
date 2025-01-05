@@ -1,0 +1,1237 @@
+
+*** Running vivado
+    with args -log torus_credit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source torus_credit.tcl
+
+WARNING: Default location for XILINX_HLS not found
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source torus_credit.tcl -notrace
+Command: synth_design -top torus_credit -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1586767
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2826.766 ; gain = 0.000 ; free physical = 312082 ; free virtual = 371066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'torus_credit' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_credit.sv:1]
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'low_swing_rx' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/low_swing_rx.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'low_swing_rx' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/low_swing_rx.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'low_swing_tx' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/low_swing_tx.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'low_swing_tx' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/low_swing_tx.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'token_bucket' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/token_bucket.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'token_bucket' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/token_bucket.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'client' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'torus_xbar_1b' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_xbar_1b.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'torus_xbar_1b' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_xbar_1b.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'credit_bp_tx' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/credit_bp_tx.sv:28]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter A_W bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'credit_bp_tx' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/credit_bp_tx.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'credit_bp_rx' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/credit_bp_rx.sv:27]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter A_W bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo32' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/fifo32.sv:31]
+	Parameter DEPTH32 bound to: 32'sb00000000000000000000000000000001 
+	Parameter WIDTH bound to: 32'sb00000000000000000000000000100100 
+	Parameter RLATENCY bound to: 32'sb00000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'fifo32' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/fifo32.sv:31]
+INFO: [Synth 8-6155] done synthesizing module 'credit_bp_rx' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/credit_bp_rx.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized0' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized0' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized0' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized0' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized0' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized0' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized1' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized1' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized1' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized1' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized1' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized1' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized2' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized2' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized2' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized2' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized2' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized2' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized3' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized3' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized3' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized3' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized3' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized3' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized4' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized4' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized4' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized4' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized4' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized4' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized5' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized5' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized5' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized5' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized5' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized5' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized6' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized6' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized6' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized6' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized6' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized6' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized7' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized7' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized7' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized7' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized7' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized7' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized8' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized8' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized8' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized8' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized8' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized8' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized9' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized9' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized9' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized9' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized9' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized9' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized10' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized10' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized10' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized10' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized10' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized10' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized11' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized11' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized11' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized11' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 0 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized11' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized11' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized12' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized12' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized12' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized12' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 1 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized12' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized12' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'client__parameterized13' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'client__parameterized13' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/client_for_synth.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'torus_switch_credit__parameterized13' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DOR_CREDIT__parameterized13' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 2 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DOR_CREDIT__parameterized13' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/dor_credit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'torus_switch_credit__parameterized13' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/torus_switch_credit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'noc_if' [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'noc_if' (0#1) [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/rtl/noc_if.sv:21]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter SIGMA bound to: 3 - type: integer 
+	Parameter RATE bound to: 20 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter N_PACKETS bound to: 128 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter VC_W bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter D_W bound to: 32 - type: integer 
+	Parameter X_MAX bound to: 4 - type: integer 
+	Parameter Y_MAX bound to: 4 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+	Parameter X_W bound to: 2 - type: integer 
+	Parameter Y_W bound to: 2 - type: integer 
+	Parameter X bound to: 3 - type: integer 
+	Parameter Y bound to: 3 - type: integer 
+WARNING: [Synth 8-7129] Port from_tx\.clk in module credit_bp_rx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_tx\.rst in module credit_bp_rx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_rx\.clk in module credit_bp_tx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_rx\.rst in module credit_bp_tx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p2s in module torus_xbar_1b is either unconnected or has no load
+WARNING: [Synth 8-7129] Port p2e in module torus_xbar_1b is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2826.766 ; gain = 0.000 ; free physical = 313013 ; free virtual = 371999
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2826.766 ; gain = 0.000 ; free physical = 313014 ; free virtual = 372001
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2826.766 ; gain = 0.000 ; free physical = 313014 ; free virtual = 372001
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2826.766 ; gain = 0.000 ; free physical = 313004 ; free virtual = 371990
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/torus.xdc]
+Finished Parsing XDC File [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/torus.xdc]
+Parsing XDC File [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X70Y74 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:935]
+WARNING: [Place 30-609] SLICE_X77Y110:SLICE_X70Y87 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:936]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X70Y87 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:936]
+WARNING: [Place 30-609] SLICE_X70Y87:SLICE_X77Y110 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:936]
+WARNING: [Place 30-609] SLICE_X79Y109:SLICE_X78Y88 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:942]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X78Y88 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:942]
+WARNING: [Place 30-609] SLICE_X78Y88:SLICE_X79Y109 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:942]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X70Y111 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1120]
+WARNING: [Place 30-609] SLICE_X77Y147:SLICE_X70Y124 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1121]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X70Y124 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1121]
+WARNING: [Place 30-609] SLICE_X70Y124:SLICE_X77Y147 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1121]
+WARNING: [Place 30-609] SLICE_X79Y146:SLICE_X78Y125 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1127]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X78Y125 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1127]
+WARNING: [Place 30-609] SLICE_X78Y125:SLICE_X79Y146 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1127]
+WARNING: [Place 30-609] SLICE_X77Y73:SLICE_X70Y50 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1306]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X70Y50 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1306]
+WARNING: [Place 30-609] SLICE_X70Y50:SLICE_X77Y73 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1306]
+WARNING: [Place 30-609] SLICE_X79Y72:SLICE_X78Y51 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1312]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X78Y51 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1312]
+WARNING: [Place 30-609] SLICE_X78Y51:SLICE_X79Y72 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:1312]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X69Y87 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2415]
+WARNING: [Place 30-609] SLICE_X69Y109:SLICE_X68Y88 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2422]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X68Y88 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2422]
+WARNING: [Place 30-609] SLICE_X68Y88:SLICE_X69Y109 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2422]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X69Y124 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2600]
+WARNING: [Place 30-609] SLICE_X69Y146:SLICE_X68Y125 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2607]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X68Y125 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2607]
+WARNING: [Place 30-609] SLICE_X68Y125:SLICE_X69Y146 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2607]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X69Y50 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2785]
+WARNING: [Place 30-609] SLICE_X69Y72:SLICE_X68Y51 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2792]
+WARNING: [Place 30-343] pblock modify has invalid range SLICE_X68Y51 [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2792]
+WARNING: [Place 30-609] SLICE_X68Y51:SLICE_X69Y72 contains no usable sites [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc:2792]
+Finished Parsing XDC File [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/floorplan.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/torus_credit_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/torus_credit_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2890.797 ; gain = 0.000 ; free physical = 312823 ; free virtual = 371818
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2890.797 ; gain = 0.000 ; free physical = 312830 ; free virtual = 371826
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312949 ; free virtual = 371945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312949 ; free virtual = 371945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312949 ; free virtual = 371945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312934 ; free virtual = 371931
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    6 Bit       Adders := 16    
+	   2 Input    5 Bit       Adders := 304   
+	   2 Input    3 Bit       Adders := 16    
+	   2 Input    2 Bit       Adders := 48    
++---XORs : 
+	   2 Input      2 Bit         XORs := 16    
++---Registers : 
+	               32 Bit    Registers := 48    
+	                6 Bit    Registers := 16    
+	                5 Bit    Registers := 160   
+	                3 Bit    Registers := 32    
+	                2 Bit    Registers := 112   
+	                1 Bit    Registers := 160   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 48    
+	   4 Input    6 Bit        Muxes := 16    
+	   2 Input    5 Bit        Muxes := 16    
+	   2 Input    3 Bit        Muxes := 128   
+	   2 Input    2 Bit        Muxes := 112   
+	   2 Input    1 Bit        Muxes := 2496  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized14 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized14 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized14 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized14 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.clk in module torus_switch_credit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port to_east_rx\.rst in module torus_switch_credit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.clk in module torus_switch_credit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port from_west_tx\.rst in module torus_switch_credit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312790 ; free virtual = 371796
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name                   | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312645 ; free virtual = 371651
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312598 ; free virtual = 371604
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name                   | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[0].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[1].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[2].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[0].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[1].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[2].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[0].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[1].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
+|\ys[3].xs[3].torus_switch_xy  | west_conn_rx/gen_vc_logic[2].vc_fifo/fifo_data_reg | Implied   | 32 x 36              | RAM32M x 6  | 
++------------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312567 ; free virtual = 371574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312508 ; free virtual = 371514
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312508 ; free virtual = 371514
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312508 ; free virtual = 371514
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312508 ; free virtual = 371514
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312509 ; free virtual = 371515
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312509 ; free virtual = 371515
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    32|
+|2     |LUT1   |   279|
+|3     |LUT2   |   810|
+|4     |LUT3   |   993|
+|5     |LUT4   |   248|
+|6     |LUT5   |   968|
+|7     |LUT6   |  1238|
+|8     |RAM32M |   288|
+|9     |FDRE   |  2480|
+|10    |FDSE   |   320|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312508 ; free virtual = 371515
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 65 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 2890.797 ; gain = 0.000 ; free physical = 312563 ; free virtual = 371570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312563 ; free virtual = 371570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2890.797 ; gain = 0.000 ; free physical = 312664 ; free virtual = 371670
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2890.797 ; gain = 0.000 ; free physical = 312606 ; free virtual = 371613
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 288 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 288 instances
+
+Synth Design complete, checksum: 7d032700
+INFO: [Common 17-83] Releasing license: Synthesis
+217 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:05 . Memory (MB): peak = 2890.797 ; gain = 64.031 ; free physical = 312714 ; free virtual = 371720
+INFO: [Common 17-1381] The checkpoint '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab5/fpga/par/par.runs/synth_1/torus_credit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file torus_credit_utilization_synth.rpt -pb torus_credit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  6 14:39:39 2024...

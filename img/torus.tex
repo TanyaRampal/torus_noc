@@ -1,0 +1,95 @@
+\documentclass[preview,border=4cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc,decorations,fit,intersections,arrows.meta,backgrounds}
+\tikzset{>=latex}
+
+\usepackage{ifthen}
+\makeatletter
+\newcommand{\gettikzxy}[3]{%
+  \tikz@scan@one@point\pgfutil@firstofone#1\relax
+  \edef#2{\the\pgf@x}%
+  \edef#3{\the\pgf@y}%
+}
+\makeatother
+\begin{document}
+\tikzstyle{pe} = [draw, fill=olive!20, thick, align=center, text centered, inner sep=0pt,minimum size=20pt,anchor=south west]
+\tikzstyle{sb} = [draw, fill=red!20, thick, align=center, text centered, inner sep=0pt,minimum size=20pt,anchor=south west,align=flush left]
+\tikzstyle{txrxh} = [draw, fill=blue!20, thick, align=center, text centered, inner sep=0pt,minimum height=20pt,minimum width=5pt]
+\tikzstyle{txrxv} = [draw, fill=blue!20, thick, align=center, text centered, inner sep=0pt,minimum width=20pt,minimum height=5pt]
+\tikzstyle{xbar} = [draw, fill=black!20, thin, align=center, text centered, inner sep=0pt,minimum size=5pt]
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}
+    \pgfmathsetmacro{\Nx}{2}
+    \pgfmathsetmacro{\Ny}{2}
+    \pgfmathsetmacro{\Nxm}{int(\Nx-1)}
+    \pgfmathsetmacro{\Nym}{int(\Ny-1)}
+    \pgfmathsetmacro{\D}{2.75}
+        
+    \foreach \x in {0,...,\Nx} {
+      \foreach \y in {0,...,\Ny} {
+        \node[sb,label={[anchor=north west]north west:\tiny sw}] (sb-\x-\y) at (\D*\x+1.3,\D*\y+1.3) {};
+        \node[txrxh] (txh-\x-\y) at ($(sb-\x-\y.east)+(0.3,0)$) {\rotatebox{90}{\tiny tx}};
+        \node[txrxv] (txv-\x-\y) at ($(sb-\x-\y.south)+(0,-0.3)$) {\tiny tx};
+        \node[txrxh] (rxh-\x-\y) at ($(sb-\x-\y.west)+(-0.3,0)$) {\rotatebox{90}{\tiny rx}};
+        \node[txrxv] (rxv-\x-\y) at ($(sb-\x-\y.north)+(0,0.3)$) {\tiny rx};
+        \node[pe] (pe-\x-\y) at (\D*\x,\D*\y) {\tiny pe};
+        
+        \node[xbar] (xbar-\x-\y-0) at ($(sb-\x-\y)+(0.2,0)$) {};
+        \node[xbar] (xbar-\x-\y-0) at ($(sb-\x-\y)+(0.1,-0.1)$) {};
+        \node[xbar] (xbar-\x-\y-0) at ($(sb-\x-\y)+(0,-0.2)$) {};
+
+        \draw [->,thick]  (pe-\x-\y.north) -- ++(0,0.5) -- ++(0.75,0) -- (sb-\x-\y.south west);
+        \coordinate (tmp) at ($(sb-\x-\y.south)!0.5!(txv-\x-\y.north)$);
+        \draw [->,thick]  (sb-\x-\y.south) -- (tmp) -- (sb-\x-\y.south west|-tmp) -- (pe-\x-\y.40);
+%        \draw [->,thick]  (txv-\x-\y.south) |- (pe-\x-\y.east);
+      }
+    }
+
+    \foreach \x in {0,...,\Nx} {
+      \foreach \y in {0,...,\Ny} {
+        \draw[->,thin,-{Latex[length=1mm]}] (sb-\x-\y.east) -- (txh-\x-\y.west);
+        \draw[->,thin,-{Latex[length=1mm]}] (rxh-\x-\y.east) -- (sb-\x-\y.west);
+        \draw[->,thin,-{Latex[length=1mm]}] (sb-\x-\y) -- (txv-\x-\y);
+        \draw[->,thin,-{Latex[length=1mm]}] (rxv-\x-\y) -- (sb-\x-\y);
+        \pgfmathparse{int(\x+1)};
+        \let\r\pgfmathresult;
+        \pgfmathparse{int(\y+1)};
+        \let\s\pgfmathresult;
+        \ifthenelse{\r>\Nx}
+          { }
+          {
+            \draw[->,thick] (txh-\x-\y.east) -- (rxh-\r-\y.west);
+          } 
+          \ifthenelse{\s>\Ny}
+          { }
+          {
+            \draw[->,thick] (txv-\x-\s) -- (rxv-\x-\y);
+          }
+      }
+    }
+
+    \foreach \x in {0,...,\Nx} {
+      \draw[<-,thick] (rxv-\x-\Ny) |- ++(0.85,0.5) -- ++(0,-\D*\Ny-3) -| (txv-\x-0);
+    }
+    \foreach \y in {0,...,\Ny} {
+      \draw[->,thick] (txh-\Nx-\y) -| ++(0.5,-0.85) -- ++(-\D*\Nx-3,0) |- (rxh-0-\y);
+    }
+    
+    \coordinate (tmp2) at ($(sb-2-2)+(1,1)$);
+    \begin{pgfonlayer}{background}
+      \node[draw, fill=black!5, inner sep=0.25cm, fit=(pe-0-0) (tmp2),label={[above]\tiny torus}] (torus) {};
+    \end{pgfonlayer}
+          
+    \draw [<-,thin,blue,-{Latex[length=1.5mm]}] (txh-2-2.north east) to[out=45,in=90] +(3.25,0.5) node [below] {\tiny low\_swing\_tx.sv};
+    \draw [<-,thin,blue,-{Latex[length=1.5mm]}] (rxv-2-1.north east) to[out=45,in=90] +(3.25,0.0) node [below] {\tiny low\_swing\_rx.sv};
+    \draw [<-,thin,red,-{Latex[length=1.5mm]}] (sb-0-2.north west) to[out=135,in=90] +(-3,0.5) node [below] {\tiny torus\_switch\_*.sv};
+    \draw [<-,thin,olive,-{Latex[length=1.5mm]}] (pe-0-0.south) to[out=-135,in=-90] +(-3.25,0.0) node [above] {\tiny client.sv};
+    \draw [<-,thin,black!25,-{Latex[length=1.5mm]}] (xbar-2-0-0.east) to[out=-45,in=-90] +(3.5,0.2) node [above] {\tiny torus\_xbar\_1b.sv};
+
+
+
+  \end{tikzpicture}
+\end{figure}
+\end{document}

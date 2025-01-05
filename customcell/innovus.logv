@@ -1,0 +1,93 @@
+[12/06 00:47:26      0s] 
+[12/06 00:47:26      0s] Cadence Innovus(TM) Implementation System.
+[12/06 00:47:26      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/06 00:47:26      0s] 
+[12/06 00:47:26      0s] Version:	v21.17-s075_1, built Wed Mar 15 11:17:40 PDT 2023
+[12/06 00:47:26      0s] Options:	-no_gui -execute set asictop torus; set datawidth 32 -files asic-par.tcl 
+[12/06 00:47:26      0s] Date:		Fri Dec  6 00:47:26 2024
+[12/06 00:47:26      0s] Host:		ECEUBUNTU2 (x86_64 w/Linux 4.18.0-553.27.1.el8_10.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz 25344KB)
+[12/06 00:47:26      0s] OS:		Red Hat Enterprise Linux 8.10 (Ootpa)
+[12/06 00:47:26      0s] 
+[12/06 00:47:26      0s] License:
+[12/06 00:47:26      0s] 		[00:47:26.232348] Configured Lic search path (21.01-s002): 6055@cadpass2.eng.uwaterloo.ca:6055@cadpass1.eng.uwaterloo.ca:7055@cadpass1.eng.uwaterloo.ca:7055@cadpass2.eng.uwaterloo.ca
+
+[12/06 00:47:26      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[12/06 00:47:26      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/06 00:47:38     11s] Reset Parastics called with the command setExtractRCMode -reset**WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[12/06 00:47:41     13s] @(#)CDS: Innovus v21.17-s075_1 (64bit) 03/15/2023 11:17 (Linux 3.10.0-693.el7.x86_64)
+[12/06 00:47:41     13s] @(#)CDS: NanoRoute 21.17-s075_1 NR230308-2354/21_17-UB (database version 18.20.604) {superthreading v2.17}
+[12/06 00:47:41     13s] @(#)CDS: AAE 21.17-s026 (64bit) 03/15/2023 (Linux 3.10.0-693.el7.x86_64)
+[12/06 00:47:41     13s] @(#)CDS: CTE 21.17-s025_1 () Mar 14 2023 11:00:06 ( )
+[12/06 00:47:41     13s] @(#)CDS: SYNTECH 21.17-s007_1 () Feb 20 2023 06:56:35 ( )
+[12/06 00:47:41     13s] @(#)CDS: CPE v21.17-s068
+[12/06 00:47:41     13s] @(#)CDS: IQuantus/TQuantus 21.1.1-s939 (64bit) Wed Nov 9 09:34:24 PST 2022 (Linux 3.10.0-693.el7.x86_64)
+[12/06 00:47:41     13s] @(#)CDS: OA 22.60-p087 Thu Feb  9 09:35:26 2023
+[12/06 00:47:41     13s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[12/06 00:47:41     13s] @(#)CDS: RCDB 11.15.0
+[12/06 00:47:41     13s] @(#)CDS: STYLUS 21.12-s019_1 (12/20/2022 05:13 PST)
+[12/06 00:47:41     13s] @(#)CDS: SystemPlanner-21.17Rel-10251 (21.17) (2023-02-02 17:22:51+0800)
+[12/06 00:47:41     13s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1020527_ECEUBUNTU2_t3rampal_aaWzq7.
+
+[12/06 00:47:41     13s] Change the soft stacksize limit to 0.2%RAM (770 mbytes). Set global soft_stack_size_limit to change the value.
+[12/06 00:47:42     15s] 
+[12/06 00:47:42     15s] **INFO:  MMMC transition support version v31-84 
+[12/06 00:47:42     15s] 
+[12/06 00:47:42     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/06 00:47:42     15s] <CMD> suppressMessage ENCEXT-2799
+[12/06 00:47:42     15s] <CMD> getVersion
+[12/06 00:47:43     15s] [INFO] Loading PVS  fill procedures
+[12/06 00:47:43     15s] **WARN: Tk package not loaded. The PVS fill DRC monitor is disabled.
+[12/06 00:47:43     15s] Executing cmd 'set asictop torus; set datawidth 32' ...
+[12/06 00:47:43     15s] Sourcing file "asic-par.tcl" ...
+[12/06 00:47:43     15s] <CMD> set init_mmmc_file setup-timing.tcl
+[12/06 00:47:43     15s] <CMD> set init_verilog asic-post-synth.torus.32.v
+[12/06 00:47:43     15s] <CMD> set init_top_cell torus_D_W32
+[12/06 00:47:43     15s] <CMD> set init_lef_file {/CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Back_End/lef/tcbn65gplus_200a/lef/tcbn65gplus_9lmT2.lef low_swing_rx.lef  low_swing_tx.lef  torus_xbar_1b.lef}
+[12/06 00:47:43     15s] <CMD> set init_gnd_net VSS
+[12/06 00:47:43     15s] <CMD> set init_pwr_net VDD
+[12/06 00:47:43     15s] <CMD> init_design
+[12/06 00:47:43     15s] #% Begin Load MMMC data ... (date=12/06 00:47:43, mem=911.8M)
+[12/06 00:47:43     15s] **ERROR: (TCLCMD-995):	Can not open file 'low_swing_rx_tc.lib' for library set
+**ERROR: (TCLCMD-995):	Can not open file 'low_swing_tx_tc.lib' for library set
+**ERROR: (IMPSYT-6692):	Invalid return code while executing 'asic-par.tcl' was returned and script processing was stopped. Review the following error in 'asic-par.tcl' then restart.
+[12/06 00:47:43     15s] Error info: asic-par.tcl: 
+[12/06 00:47:43     15s]     while executing
+[12/06 00:47:43     15s] "error "$ret""
+[12/06 00:47:43     15s]     (procedure "::init_design::process_view_def" line 89)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "::init_design::process_view_def $::init_mmmc_file"
+[12/06 00:47:43     15s]     (procedure "init_design" line 224)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "init_design"
+[12/06 00:47:43     15s]     (file "asic-par.tcl" line 8)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "::se_source_orig asic-par.tcl"
+[12/06 00:47:43     15s]     ("uplevel" body line 1)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "uplevel [concat ::se_source_orig $args]"
+[12/06 00:47:43     15s]     (procedure "source" line 194)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "source asic-par.tcl"
+[12/06 00:47:43     15s]     ("uplevel" body line 1)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "uplevel #0 source asic-par.tcl"
+[12/06 00:47:43     15s]     ("eval" body line 1)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "eval {uplevel #0 source asic-par.tcl}"
+[12/06 00:47:43     15s]     (in namespace inscope "::" script line 1)
+[12/06 00:47:43     15s]     invoked from within
+[12/06 00:47:43     15s] "namespace inscope :: eval "uplevel #0 source $fileName"".
+[12/06 00:47:51     15s] **INFO (INTERRUPT): The current script will stop before next command.
+[12/06 00:47:51     15s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[12/06 00:47:52     15s] Innovus terminated by user interrupt.
+[12/06 00:47:52     15s] 
+[12/06 00:47:52     15s] *** Memory Usage v#1 (Current mem = 959.637M, initial mem = 486.906M) ***
+[12/06 00:47:52     15s] 
+[12/06 00:47:52     15s] *** Summary of all messages that are not suppressed in this session:
+[12/06 00:47:52     15s] Severity  ID               Count  Summary                                  
+[12/06 00:47:52     15s] ERROR     IMPSYT-6692          1  Invalid return code while executing '%s'...
+[12/06 00:47:52     15s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[12/06 00:47:52     15s] ERROR     TCLCMD-995           2  Can not open file '%s' for %s            
+[12/06 00:47:52     15s] *** Message Summary: 1 warning(s), 3 error(s)
+[12/06 00:47:52     15s] 
+[12/06 00:47:52     15s] --- Ending "Innovus" (totcpu=0:00:15.5, real=0:00:26.0, mem=959.6M) ---

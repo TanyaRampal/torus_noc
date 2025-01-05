@@ -1,0 +1,179 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu Dec  5 23:49:58 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.17-s075_1 (64bit) 03/15/2023 11:17 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.17-s075_1 NR230308-2354/21_17-UB (database version 18.20.604) {superthreading v2.17}
+#@(#)CDS: AAE 21.17-s026 (64bit) 03/15/2023 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.17-s025_1 () Mar 14 2023 11:00:06 ( )
+#@(#)CDS: SYNTECH 21.17-s007_1 () Feb 20 2023 06:56:35 ( )
+#@(#)CDS: CPE v21.17-s068
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s939 (64bit) Wed Nov 9 09:34:24 PST 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+set init_mmmc_file setup-timing.tcl
+set init_verilog asic-post-synth.torus_bp.32.v
+set init_top_cell torus_bp_D_W32
+set init_lef_file /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Back_End/lef/tcbn65gplus_200a/lef/tcbn65gplus_9lmT2.lef
+set init_gnd_net VSS
+set init_pwr_net VDD
+init_design
+floorPlan -d 1500 1500 2 2 2 2
+globalNetConnect VDD -type pgpin -pin VDD -inst * -verbose
+globalNetConnect VSS -type pgpin -pin VSS -inst * -verbose
+sroute -nets {VDD VSS}
+addRing -nets {VDD VSS} -width 0.6 -spacing 0.5 -layer {top 6 bottom 6 left 5 right 5}
+addStripe -nets {VSS VDD} -layer 5 -direction vertical -width 0.4 -spacing 0.5 -set_to_set_distance 5 -start 0.5
+addStripe -nets {VSS VDD} -layer 6 -direction horizontal -width 0.4 -spacing 0.5 -set_to_set_distance 5 -start 0.5
+createInstGroup poly0_0_sw
+addInstToInstGroup poly0_0_sw {ys[0].xs[0].torus_switch_xy}
+createInstGroup poly0_0_cli
+addInstToInstGroup poly0_0_cli {ys[0].xs[0].client_xy}
+createInstGroup poly0_0_rx_ew
+createInstGroup poly0_0_tx_ew
+createInstGroup poly0_0_rx_ns
+createInstGroup poly0_0_tx_ns
+createInstGroup poly0_1_sw
+addInstToInstGroup poly0_1_sw {ys[1].xs[0].torus_switch_xy}
+createInstGroup poly0_1_cli
+addInstToInstGroup poly0_1_cli {ys[1].xs[0].client_xy}
+createInstGroup poly0_1_rx_ew
+createInstGroup poly0_1_tx_ew
+createInstGroup poly0_1_rx_ns
+createInstGroup poly0_1_tx_ns
+createInstGroup poly0_2_sw
+addInstToInstGroup poly0_2_sw {ys[2].xs[0].torus_switch_xy}
+createInstGroup poly0_2_cli
+addInstToInstGroup poly0_2_cli {ys[2].xs[0].client_xy}
+createInstGroup poly0_2_rx_ew
+createInstGroup poly0_2_tx_ew
+createInstGroup poly0_2_rx_ns
+createInstGroup poly0_2_tx_ns
+createInstGroup poly0_3_sw
+addInstToInstGroup poly0_3_sw {ys[3].xs[0].torus_switch_xy}
+createInstGroup poly0_3_cli
+addInstToInstGroup poly0_3_cli {ys[3].xs[0].client_xy}
+createInstGroup poly0_3_rx_ew
+createInstGroup poly0_3_tx_ew
+createInstGroup poly0_3_rx_ns
+createInstGroup poly0_3_tx_ns
+createInstGroup poly1_0_sw
+addInstToInstGroup poly1_0_sw {ys[0].xs[1].torus_switch_xy}
+createInstGroup poly1_0_cli
+addInstToInstGroup poly1_0_cli {ys[0].xs[1].client_xy}
+createInstGroup poly1_0_rx_ew
+createInstGroup poly1_0_tx_ew
+createInstGroup poly1_0_rx_ns
+createInstGroup poly1_0_tx_ns
+createInstGroup poly1_1_sw
+addInstToInstGroup poly1_1_sw {ys[1].xs[1].torus_switch_xy}
+createInstGroup poly1_1_cli
+addInstToInstGroup poly1_1_cli {ys[1].xs[1].client_xy}
+createInstGroup poly1_1_rx_ew
+createInstGroup poly1_1_tx_ew
+createInstGroup poly1_1_rx_ns
+createInstGroup poly1_1_tx_ns
+createInstGroup poly1_2_sw
+addInstToInstGroup poly1_2_sw {ys[2].xs[1].torus_switch_xy}
+createInstGroup poly1_2_cli
+addInstToInstGroup poly1_2_cli {ys[2].xs[1].client_xy}
+createInstGroup poly1_2_rx_ew
+createInstGroup poly1_2_tx_ew
+createInstGroup poly1_2_rx_ns
+createInstGroup poly1_2_tx_ns
+createInstGroup poly1_3_sw
+addInstToInstGroup poly1_3_sw {ys[3].xs[1].torus_switch_xy}
+createInstGroup poly1_3_cli
+addInstToInstGroup poly1_3_cli {ys[3].xs[1].client_xy}
+createInstGroup poly1_3_rx_ew
+createInstGroup poly1_3_tx_ew
+createInstGroup poly1_3_rx_ns
+createInstGroup poly1_3_tx_ns
+createInstGroup poly2_0_sw
+addInstToInstGroup poly2_0_sw {ys[0].xs[2].torus_switch_xy}
+createInstGroup poly2_0_cli
+addInstToInstGroup poly2_0_cli {ys[0].xs[2].client_xy}
+createInstGroup poly2_0_rx_ew
+createInstGroup poly2_0_tx_ew
+createInstGroup poly2_0_rx_ns
+createInstGroup poly2_0_tx_ns
+createInstGroup poly2_1_sw
+addInstToInstGroup poly2_1_sw {ys[1].xs[2].torus_switch_xy}
+createInstGroup poly2_1_cli
+addInstToInstGroup poly2_1_cli {ys[1].xs[2].client_xy}
+createInstGroup poly2_1_rx_ew
+createInstGroup poly2_1_tx_ew
+createInstGroup poly2_1_rx_ns
+createInstGroup poly2_1_tx_ns
+createInstGroup poly2_2_sw
+addInstToInstGroup poly2_2_sw {ys[2].xs[2].torus_switch_xy}
+createInstGroup poly2_2_cli
+addInstToInstGroup poly2_2_cli {ys[2].xs[2].client_xy}
+createInstGroup poly2_2_rx_ew
+createInstGroup poly2_2_tx_ew
+createInstGroup poly2_2_rx_ns
+createInstGroup poly2_2_tx_ns
+createInstGroup poly2_3_sw
+addInstToInstGroup poly2_3_sw {ys[3].xs[2].torus_switch_xy}
+createInstGroup poly2_3_cli
+addInstToInstGroup poly2_3_cli {ys[3].xs[2].client_xy}
+createInstGroup poly2_3_rx_ew
+createInstGroup poly2_3_tx_ew
+createInstGroup poly2_3_rx_ns
+createInstGroup poly2_3_tx_ns
+createInstGroup poly3_0_sw
+addInstToInstGroup poly3_0_sw {ys[0].xs[3].torus_switch_xy}
+createInstGroup poly3_0_cli
+addInstToInstGroup poly3_0_cli {ys[0].xs[3].client_xy}
+createInstGroup poly3_0_rx_ew
+createInstGroup poly3_0_tx_ew
+createInstGroup poly3_0_rx_ns
+createInstGroup poly3_0_tx_ns
+createInstGroup poly3_1_sw
+addInstToInstGroup poly3_1_sw {ys[1].xs[3].torus_switch_xy}
+createInstGroup poly3_1_cli
+addInstToInstGroup poly3_1_cli {ys[1].xs[3].client_xy}
+createInstGroup poly3_1_rx_ew
+createInstGroup poly3_1_tx_ew
+createInstGroup poly3_1_rx_ns
+createInstGroup poly3_1_tx_ns
+createInstGroup poly3_2_sw
+addInstToInstGroup poly3_2_sw {ys[2].xs[3].torus_switch_xy}
+createInstGroup poly3_2_cli
+addInstToInstGroup poly3_2_cli {ys[2].xs[3].client_xy}
+createInstGroup poly3_2_rx_ew
+createInstGroup poly3_2_tx_ew
+createInstGroup poly3_2_rx_ns
+createInstGroup poly3_2_tx_ns
+createInstGroup poly3_3_sw
+addInstToInstGroup poly3_3_sw {ys[3].xs[3].torus_switch_xy}
+createInstGroup poly3_3_cli
+addInstToInstGroup poly3_3_cli {ys[3].xs[3].client_xy}
+createInstGroup poly3_3_rx_ew
+createInstGroup poly3_3_tx_ew
+createInstGroup poly3_3_rx_ns
+createInstGroup poly3_3_tx_ns
+setAttribute -net s_tx* -top_preferred_routing_layer M8 -bottom_preferred_routing_layer M8
+setAttribute -net e_tx* -top_preferred_routing_layer M7 -bottom_preferred_routing_layer M7
+place_design
+ccopt_design
+routeDesign
+setFillerMode -corePrefix FILL -core {FILL1 FILL2 FILL4}
+addFiller
+verifyConnectivity
+verify_drc
+saveNetlist asic-post-par.torus_bp.32.v
+extractRC
+write_sdf post-par.sdf -interconn all -setuphold split
+streamOut post-par.torus_bp.32.gds -merge /CMC/kits/tsmc_65nm_libs/tcbn65gplus_200a/TSMCHOME/digital/Back_End/gds/tcbn65gplus_140a/tcbn65gplus.gds
+report_timing > asic-post-par-timing.$asictop.$datawidth.rpt
+report_area > asic-post-par-area.torus_bp.32.rpt
+report_power -hierarchy all > asic-post-par-power.torus_bp.32.rpt
+setDrawView fplan
+dumpToGIF floorplan_edge_dimension.gif
+createSnapshot -dir snapshots -name WORKPLEASE

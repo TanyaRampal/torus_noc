@@ -1,0 +1,75 @@
+\documentclass[preview]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc,decorations,fit,intersections,arrows.meta}
+\tikzset{>=latex}
+
+\usepackage{ifthen}
+\makeatletter
+\newcommand{\gettikzxy}[3]{%
+  \tikz@scan@one@point\pgfutil@firstofone#1\relax
+  \edef#2{\the\pgf@x}%
+  \edef#3{\the\pgf@y}%
+}
+\makeatother
+\begin{document}
+\tikzstyle{pe} = [draw, fill=black!10, thick, align=center, text centered, inner sep=0pt,minimum size=20pt,anchor=south west]
+\tikzstyle{sb} = [draw, fill=white, thick, align=center, text centered, inner sep=0pt,minimum size=20pt,anchor=south west]
+\tikzstyle{txrxh} = [draw, fill=white, thick, align=center, text centered, inner sep=0pt,minimum height=20pt,minimum width=5pt]
+\tikzstyle{txrxv} = [draw, fill=white, thick, align=center, text centered, inner sep=0pt,minimum width=20pt,minimum height=5pt]
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}
+    \pgfmathsetmacro{\Nx}{2}
+    \pgfmathsetmacro{\Ny}{2}
+    \pgfmathsetmacro{\Nxm}{int(\Nx-1)}
+    \pgfmathsetmacro{\Nym}{int(\Ny-1)}
+    \pgfmathsetmacro{\D}{2.75}
+
+    \foreach \x in {0,...,\Nx} {
+      \foreach \y in {0,...,\Ny} {
+        \node[sb] (sb-\x-\y) at (\D*\x+1.25,\D*\y+1.25) {\tiny sw};
+        \node[txrxh] (txh-\x-\y) at ($(sb-\x-\y.east)+(0.3,0)$) {\rotatebox{90}{\tiny tx}};
+        \node[txrxv] (txv-\x-\y) at ($(sb-\x-\y.south)+(0,-0.3)$) {\tiny tx};
+        \node[txrxh] (rxh-\x-\y) at ($(sb-\x-\y.west)+(-0.3,0)$) {\rotatebox{90}{\tiny rx}};
+        \node[txrxv] (rxv-\x-\y) at ($(sb-\x-\y.north)+(0,0.3)$) {\tiny rx};
+        \node[pe] (pe-\x-\y) at (\D*\x,\D*\y) {\tiny pe};
+      }
+    }
+
+    \foreach \x in {0,...,\Nx} {
+      \foreach \y in {0,...,\Ny} {
+        \pgfmathparse{int(\x+1)};
+        \let\r\pgfmathresult;
+        \pgfmathparse{int(\y+1)};
+        \let\s\pgfmathresult;
+        \ifthenelse{\r>\Nx}
+          { }
+          {
+            \draw[->,thin,-{Latex[length=1mm]}] (sb-\x-\y.east) -- (txh-\x-\y.west);
+            \draw[->,thick] (txh-\x-\y.east) -- (rxh-\r-\y.west);
+            \draw[->,thin,-{Latex[length=1mm]}] (rxh-\r-\y.east) -- (sb-\r-\y.west);
+          } 
+          \ifthenelse{\s>\Ny}
+          { }
+          {\draw[<-,thick] (sb-\x-\y) -- (sb-\x-\s);}
+      }
+    }
+
+    \foreach \x in {0,...,\Nx} {
+      \draw[<-,thick] (sb-\x-\Ny) -- (txh-\x-\Ny);
+      \draw[<-,thick] (txh-\x-\Ny) |- ++(0.85,1) -- ++(0,-\D*\Ny-2) -| (sb-\x-0);
+    }
+    \foreach \y in {0,...,\Ny} {
+      \draw[->,thick] (sb-\Nx-\y) -| ++(1.25,-0.85) -- ++(-\D*\Nx-2,0) |- (sb-0-\y);
+    }
+          
+%    \draw [<-,thin,blue,-{Latex[length=1.5mm]}] (dir-2-2.north east) to[out=45,in=90] +(3.25,0.5) node [below] {\tiny directory\_controller.sv};
+%    \draw [<-,thin,green,-{Latex[length=1.5mm]}] (dir-2-0.south) to[out=-45,in=-90] +(3.25,0.0) node [above] {\tiny cache\_controller.sv};
+%    \draw [<-,thin,blue,-{Latex[length=1.5mm]}] (dir-2-2.north east) to[out=45,in=90] +(3,0.5) node [below] {\tiny llc\_controller.sv};
+%    \draw [<-,thin,green,-{Latex[length=1.5mm]}] (dir-2-0.south) to[out=-45,in=-90] +(3.25,0.0) node [above] {\tiny cache\_controller.sv};
+%    \draw [<-,thin,red,-{Latex[length=1.5mm]}] (dir-2-0.east) to[out=-45,in=-90] +(2.5,1.00) node [above] {\tiny directory\_controller.sv};
+
+  \end{tikzpicture}
+\end{figure}
+\end{document}
