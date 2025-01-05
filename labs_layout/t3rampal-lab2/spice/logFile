@@ -1,0 +1,186 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "R-2020.12-SP2-2 linux64"
+"rundate" "20:47:04 12/07/2024 "
+"runtitle" ".option                                                           "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+""
+"PSF"
+""
+("w1" "l1" "w2" "l2" "w3" "l3" "w4" "l4" "f" )
+"sweep parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+"schematic_low_swing_tx_tb.tr0@1" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@1"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 5.9e-07
+"l2" 4.9e-07
+"w3" 6e-07
+"l3" 6e-08
+"w4" 1.2e-07
+"l4" 6e-08
+"f" 2.0
+)
+"schematic_low_swing_tx_tb.tr0@2" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@2"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 3e-07
+"l2" 2.4e-07
+"w3" 7.2e-07
+"l3" 6e-08
+"w4" 5.5e-07
+"l4" 6e-08
+"f" 2.0
+)
+"schematic_low_swing_tx_tb.tr0@3" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@3"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 3.2e-07
+"l2" 3e-07
+"w3" 6e-07
+"l3" 6e-08
+"w4" 5.5e-07
+"l4" 6e-08
+"f" 3.0
+)
+"schematic_low_swing_tx_tb.tr0@4" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@4"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 7e-07
+"l2" 6.5e-07
+"w3" 4.63e-07
+"l3" 6e-08
+"w4" 3.6e-07
+"l4" 6e-08
+"f" 1.0
+)
+"schematic_low_swing_tx_tb.tr0@5" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@5"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 7e-07
+"l2" 6.7e-07
+"w3" 7e-07
+"l3" 6e-08
+"w4" 1.2e-07
+"l4" 6e-08
+"f" 1.0
+)
+"schematic_low_swing_tx_tb.tr0@6" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@6"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 6e-07
+"l2" 5e-07
+"w3" 6e-07
+"l3" 6e-08
+"w4" 1.2e-07
+"l4" 6e-08
+"f" 2.0
+)
+"schematic_low_swing_tx_tb.tr0@7" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@7"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 5e-07
+"l2" 4.45e-07
+"w3" 4.63e-07
+"l3" 6e-08
+"w4" 3.6e-07
+"l4" 6e-08
+"f" 3.0
+)
+"schematic_low_swing_tx_tb.tr0@8" "analysisInst" ( 
+"Transient Analysis"
+"schematic_low_swing_tx_tb.tr0@8"
+"PSF"
+"timeSweep"
+()
+"Transient Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"w1" 1.2e-07
+"l1" 6e-08
+"w2" 5e-07
+"l2" 4.45e-07
+"w3" 7.2e-07
+"l3" 6e-08
+"w4" 1.2e-07
+"l4" 6e-08
+"f" 2.0
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"schematic_low_swing_tx_tb.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

@@ -1,0 +1,8 @@
+pvsgui:   ERROR: The OA2.2 library directory (/CMC/tools/cadence/PVS19.12.000_lnx86/share/oa/lib/linux_rhel60_64/opt) does not seem to exist.
+pvsgui:    INFO: You have OA_UNSUPPORTED_PLAT set to "linux_rhel60" in your environment:
+pvsgui:          check that the value provided correspond to a valid OA platform.
+pvsgui:          If this value is correct, check your OA installation.
+pvsgui:    INFO: Note that OpenAccess (OA) requires running the Configure phase.
+pvsgui:          See the "OpenAccess Installation and Configuration Guide" before
+pvsgui:          you complete the configuration step. This manual is included with
+pvsgui:          the Cadence product documentation.

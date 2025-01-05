@@ -1,0 +1,7 @@
+#@ # 
+#@ # Running lc_shell Version Q-2019.12-SP2 for linux64 -- Mar 14, 2020
+#@ # Date:   Thu Dec  5 22:23:02 2024
+#@ # Run by: t3rampal@ECEUBUNTU2
+#@ 
+
+source -echo -verbose customcell/convert_lib_to_db.tcl

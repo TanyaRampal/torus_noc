@@ -1,0 +1,31 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/01/2019 12:41 (sjfhw303) $
+\o Sub version:		sub-version  s010 
+\o Arguments:		-unmapped -mpssession virtuoso845859 -mpshost ECEUBUNTU2 
+\o Working Directory:	ECEUBUNTU2:/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\w Warning: LIB ece720t7 from File /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1/cds.lib Line 4 redefines
+\w LIB ece720t7 from the same file (defined earlier.)
+\w Warning: The directory: '/home/t3rampal/ece720t7-f24/labs/t3rampal-lab1/ece720t7#2dcopy' does not exist
+\w 	but was defined in libFile '/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1/cds.lib' for Lib 'ece720t7#2dcopy'.
+\a nrResizeWindow(cdsLibManager list(0 0 757 490))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(8 31 757 490))
+\a nrResizeWindow(cdsLibManager list(357 160 757 490))
+\a cdsLibManager->libListBox->value = "ece720t7"
+\a cdsLibManager->libLineEdit->value = "ece720t7"
+\a cdsLibManager->cellListBox->value = "torus_xbar_1b"
+\a cdsLibManager->cellLineEdit->value = "torus_xbar_1b"
+\a nrListItemAction(cdsLibManager->libListBox "ece720t7" 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

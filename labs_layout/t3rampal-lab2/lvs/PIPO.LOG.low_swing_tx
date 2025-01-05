@@ -1,0 +1,74 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/06/2019 02:39 (ip-172-18-22-55) $
+          : sub-version  IC6.1.8-64b.500.2 
+Started at: 07-Dec-2024  20:22:14
+User Name : t3rampal
+Host Name : ECEUBUNTU2
+Directory : /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/low_swing_tx.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/tsmcN65.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 ece720t7
+strmFile                                /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/low_swing_tx.calibre.db
+topCell                                 low_swing_tx
+view                                    layout
+runDir                                  /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/
+logFile                                 PIPO.LOG.low_swing_tx
+summaryFile                             PIPO.SUM.low_swing_tx
+layerMap                                /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/tsmcN65.layermap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellView tsmcN65/M1_PO/layout as STRUCTURE M1_PO_CDNS_733620934180.
+INFO (XSTRM-223): 2. Translating cellView tsmcN65/M1_PO/layout as STRUCTURE M1_PO_CDNS_733620934181.
+INFO (XSTRM-223): 3. Translating cellView tsmcN65/M2_M1/layout as STRUCTURE M2_M1_CDNS_733620934182.
+INFO (XSTRM-223): 4. Translating cellView tsmcN65/M1_PO/layout as STRUCTURE M1_PO_CDNS_733620934183.
+INFO (XSTRM-223): 5. Translating cellView tsmcN65/nch/layout as STRUCTURE nch_CDNS_733620934180.
+WARNING (XSTRM-315): The cellview 'tsmcN65/nch/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 6. Translating cellView tsmcN65/pch/layout as STRUCTURE pch_CDNS_733620934181.
+WARNING (XSTRM-315): The cellview 'tsmcN65/pch/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 7. Translating cellView tsmcN65/pch/layout as STRUCTURE pch_CDNS_733620934182.
+WARNING (XSTRM-315): The cellview 'tsmcN65/pch/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 8. Translating cellView tsmcN65/pch/layout as STRUCTURE pch_CDNS_733620934183.
+WARNING (XSTRM-315): The cellview 'tsmcN65/pch/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 9. Translating cellView tsmcN65/nch/layout as STRUCTURE nch_CDNS_733620934184.
+WARNING (XSTRM-315): The cellview 'tsmcN65/nch/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 10. Translating cellView ece720t7/low_swing_tx/layout as STRUCTURE low_swing_tx.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       11
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             592
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           9
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               212
+	Text:                                   77
+	TextDisplay:                            0
+	Cells:                                  10
+
+Elapsed Time: 0.4s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 97312KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '7' warning(s) found.

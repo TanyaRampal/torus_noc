@@ -1,0 +1,132 @@
+VERSION 5.7 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+PROPERTYDEFINITIONS
+  MACRO CatenaDesignType STRING ;
+  MACRO oaTaper STRING ;
+END PROPERTYDEFINITIONS
+
+MACRO torus_xbar_1b
+  CLASS CORE ;
+  ORIGIN -0.5 -0.4 ;
+  FOREIGN torus_xbar_1b 0.5 0.4 ;
+  SIZE 5.48 BY 2.205 ;
+  SYMMETRY X Y ;
+  SITE core ;
+  PIN wi
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 3.055 0.89 3.145 1.11 ;
+        RECT 2.315 1 3.145 1.09 ;
+        RECT 2.315 0.89 2.405 1.11 ;
+    END
+  END wi
+  PIN vss
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER M1 ;
+        RECT 0.74 0.4 5.74 0.73 ;
+    END
+  END vss
+  PIN w2e
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 3.145 1.2 3.315 1.29 ;
+        RECT 3.2 1.2 3.29 1.79 ;
+    END
+  END w2e
+  PIN eo
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 4.055 0.89 4.145 1.11 ;
+        RECT 3.315 1 4.145 1.09 ;
+        RECT 3.315 0.89 3.405 1.11 ;
+    END
+  END eo
+  PIN pi
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 5.055 0.89 5.145 1.11 ;
+        RECT 4.315 1 5.145 1.09 ;
+        RECT 4.315 0.89 4.405 1.11 ;
+    END
+  END pi
+  PIN p2e
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 4.1 1.2 4.315 1.29 ;
+        RECT 4.1 1.2 4.19 1.79 ;
+    END
+  END p2e
+  PIN p2s
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 5.1 1.2 5.315 1.29 ;
+        RECT 5.1 1.2 5.19 1.79 ;
+    END
+  END p2s
+  PIN so
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 1.7 1.955 5.645 2.045 ;
+        RECT 5.555 0.955 5.645 2.045 ;
+        RECT 5.315 0.955 5.645 1.045 ;
+        RECT 5.315 0.89 5.405 1.11 ;
+        RECT 2.055 0.89 2.145 1.11 ;
+        RECT 1.415 1 2.145 1.09 ;
+        RECT 1.7 1 1.79 2.045 ;
+        RECT 1.415 0.89 1.505 1.11 ;
+    END
+  END so
+  PIN w2s
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 2.145 1.2 2.315 1.29 ;
+        RECT 2.2 1.2 2.29 1.79 ;
+    END
+  END w2s
+  PIN ni
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 1.155 0.89 1.245 1.11 ;
+        RECT 0.7 1 1.245 1.09 ;
+    END
+  END ni
+  PIN n2s
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER M1 ;
+        RECT 1.245 1.2 1.415 1.29 ;
+        RECT 1.3 1.2 1.39 1.79 ;
+    END
+  END n2s
+  OBS
+    LAYER M1 ;
+      RECT 0.74 2.2 5.74 2.53 ;
+  END
+  PROPERTY CatenaDesignType "deviceLevel" ;
+  PROPERTY oaTaper "virtuosoDefaultSetup" ;
+END torus_xbar_1b
+
+END LIBRARY

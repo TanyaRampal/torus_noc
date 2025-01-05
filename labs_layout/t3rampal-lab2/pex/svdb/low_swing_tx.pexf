@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/pex
+pex_PexParam LAYOUT_PRIMARY low_swing_tx
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {LOW_SWING_TX "" LOW_SWING_TX.pdb "" } } 

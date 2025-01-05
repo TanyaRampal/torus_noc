@@ -1,0 +1,29 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.11s.
+
+Initializing from libInit.il for library tsmcN65...
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/pcode1.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/pcode2.cxt
+   --  tsmcPdkParamTable.il
+   --  tsmcN65_updateCDFs.il
+   --  tsmc_esti.ile
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65gp_v1d0c.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newAMS.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+   --  tsmcN65.cxt
+   --  tif_tcf_crn65gp_v1.0a.cxt
+   --  tsmcN65Tool.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65GP_v1d0.cxt already loaded
+
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newAMS.cxt
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65_newRTMOM.cxt already loaded
+
+Loading Working place Display File '/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/display.drf'
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65_newAMS.cxt already loaded
+
+Running Artist Hierarchical Netlisting ...
+
+End netlisting Dec  7 20:22:16 2024
+

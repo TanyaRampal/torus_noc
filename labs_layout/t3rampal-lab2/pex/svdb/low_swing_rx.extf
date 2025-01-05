@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733622523 1733622526
+lvs_ExtOutFile RUNDIR /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/pex
+lvs_ExtOutFile RULES_FILE /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/_ece720.rcx_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/svdb/low_swing_rx.sp
+lvs_ExtOutFile EXTRACTION_REPORT low_swing_rx.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/low_swing_rx.pdsp }

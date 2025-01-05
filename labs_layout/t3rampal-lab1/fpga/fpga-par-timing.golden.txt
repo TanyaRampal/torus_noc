@@ -1,0 +1,35 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Fri Sep 13 13:06:31 2024
+| Host         : jane running 64-bit Ubuntu 18.04.6 LTS
+| Command      : report_timing -file fpga-par-timing.txt
+| Design       : torus_xbar_1b
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 wtoe
+                            (input port)
+  Destination:            eo
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.070ns  (logic 0.124ns (5.990%)  route 1.946ns (94.010%))
+  Logic Levels:           1  (LUT3=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                                                      0.000     0.000 r  wtoe (IN)
+                         net (fo=0)                   0.973     0.973    wtoe
+    SLICE_X56Y75         LUT3 (Prop_lut3_I2_O)        0.124     1.097 r  eo_INST_0/O
+                         net (fo=0)                   0.973     2.070    eo
+                                                                      r  eo (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

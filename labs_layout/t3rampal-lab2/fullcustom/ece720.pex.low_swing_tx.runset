@@ -1,0 +1,30 @@
+*pexRulesFile: ../fullcustom/ece720.rcx
+*pexRunDir: ./pex
+*pexLayoutPaths: low_swing_tx.calibre.db
+*pexLayoutPrimary: low_swing_tx
+*pexLayoutLibrary: ece720t7
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: ../lvs/low_swing_tx.src.net
+*pexSourcePrimary: low_swing_tx
+*pexSourceLibrary: ece720t7
+*pexSourceView: schematic
+*pexPexGroundName: 1
+*pexPexGroundNameValue: VSS
+*pexGroundNames: VSS
+*pexReportFile: low_swing_tx.lvs.report
+*pexPexNetlistFile: low_swing_tx.pex.netlist
+*pexPexNetlistFormat: HSPICE
+*pexPexNetlistNameSource: SOURCEBASED
+*pexPexReportFile: low_swing_tx.pex.report
+*pexStartRVE: 1
+*cmnWarnLayoutOverwrite: 0
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ece720t7
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: low_swing_tx.def

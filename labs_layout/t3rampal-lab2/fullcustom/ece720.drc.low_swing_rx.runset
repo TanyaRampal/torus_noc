@@ -1,0 +1,16 @@
+*drcRulesFile: /CMC/kits/tsmc_65nm/CRN65GP/PDK/Calibre/drc/calibre_no_full_chip_checks.drc
+*drcRunDir: /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/drc
+*drcLayoutPaths: low_swing_rx.calibre.db
+*drcLayoutPrimary: low_swing_rx
+*drcLayoutLibrary: ece720t7
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: low_swing_rx.drc.results
+*drcSummaryFile: low_swing_rx.drc.summary
+*drcDFMDefaultsResultsFile: low_swing_rx.dfmDefaults.db
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ece720t7
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: low_swing_rx.def

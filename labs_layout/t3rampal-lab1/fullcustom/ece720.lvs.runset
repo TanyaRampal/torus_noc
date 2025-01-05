@@ -1,0 +1,26 @@
+*lvsRulesFile: /CMC/kits/tsmc_65nm/CRN65GP/PDK/Calibre/lvs/calibre.lvs
+*lvsRunDir: ./lvs
+*lvsLayoutPaths: torus_xbar_1b.calibre.db
+*lvsLayoutPrimary: torus_xbar_1b
+*lvsLayoutLibrary: ece720t7
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: torus_xbar_1b.src.net
+*lvsSourcePrimary: torus_xbar_1b
+*lvsSourceLibrary: ece720t7
+*lvsSourceView: schematic
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: torus_xbar_1b.sp
+*lvsGroundNames: VSS
+*lvsERCDatabase: torus_xbar_1b.erc.results
+*lvsERCSummaryFile: torus_xbar_1b.erc.summary
+*lvsReportFile: torus_xbar_1b.lvs.report
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnShowOptions: 1
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ece720t7
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: torus_xbar_1b.def

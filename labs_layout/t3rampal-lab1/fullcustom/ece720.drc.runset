@@ -1,0 +1,13 @@
+*drcRulesFile: /home/nachiket/ece720t7-f24/manuals/fullcustom-impl/calibre_no_full_chip_checks.drc
+*drcRunDir: ./drc
+*drcLayoutPaths: torus_xbar_1b.calibre.db
+*drcLayoutPrimary: torus_xbar_1b
+*drcLayoutLibrary: ece720t7
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: torus_xbar_1b.drc.results
+*drcSummaryFile: torus_xbar_1b.drc.summary
+*drcDFMDefaultsResultsFile: torus_xbar_1b.dfmDefaults.db
+*cmnFDILayoutLibrary: ece720t7
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: torus_xbar_1b.def

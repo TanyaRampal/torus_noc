@@ -1,0 +1,5 @@
+cUiSetViewStatus {low_swing_rx_Copy} {layout} {1}
+cUiSetViewStatus {low_swing_rx_Copy} {logical} {0}
+cUiSetViewStatus {low_swing_rx_Copy} {abstract.pin} {0}
+cUiSetViewStatus {low_swing_rx_Copy} {abstract.ext} {0}
+cUiSetViewStatus {low_swing_rx_Copy} {abstract} {0}

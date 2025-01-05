@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"M0v" "m0v"
+"M1v" "m1v"
+"M0n" "tsmcN65_pch_hspiceD"
+"M2v" "m2v"
+"M1n" "tsmcN65_nch_hspiceD"
+"M3v" "m3v"
+"M2n" "tsmcN65_nch_hvt_hspiceD"
+"M3n" "tsmcN65_pch_hvt_hspiceD"

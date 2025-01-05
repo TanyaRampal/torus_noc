@@ -1,0 +1,4 @@
+INCLUDE tech.lib
+DEFINE ece720t7 /home/t3rampal/ece720t7-f24/labs/t3rampal-lab1/ece720t7
+DEFINE ece720t7#2dcopy /home/t3rampal/ece720t7-f24/labs/t3rampal-lab1/ece720t7#2dcopy
+DEFINE ece720t7 ./ece720t7

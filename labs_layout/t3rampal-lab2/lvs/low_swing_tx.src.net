@@ -1,0 +1,43 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ece720t7
+* Top Cell Name: low_swing_tx
+* View Name:     schematic
+* Netlisted on:  Dec  7 20:48:05 2024
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ece720t7
+* Cell Name:    low_swing_tx
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT low_swing_tx c i vdd vss
+*.PININFO i:I vdd:I vss:I c:O
+MM8 c net19 vss vss nch l=60n w=120.0n m=1
+MM3 net17 net16 vss vss nch l=60n w=120.0n m=1
+MM2 net16 net14 vss vss nch l=490.0n w=120.0n m=5
+MM1 net14 net19 vss vss nch l=490.0n w=120.0n m=5
+MM0 net19 i vss vss nch l=60n w=120.0n m=1
+MM10 net33 net19 vdd vdd pch l=60n w=120.0n m=10
+MM9 c net17 net33 vdd pch l=60n w=120.0n m=10
+MM7 net17 net16 vdd vdd pch l=60n w=120.0n m=2
+MM6 net16 net14 vdd vdd pch l=490.0n w=120.0n m=10
+MM5 net14 net19 vdd vdd pch l=490.0n w=120.0n m=10
+MM4 net19 i vdd vdd pch l=60n w=120.0n m=2
+.ENDS
+

@@ -1,0 +1,87 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/06/2019 02:39 (ip-172-18-22-55) $
+          : sub-version  IC6.1.8-64b.500.2 
+Started at: 06-Dec-2024  17:56:17
+User Name : t3rampal
+Host Name : ECEUBUNTU2
+Directory : /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmcN65/pch_hvt/layout          0        0       0        45     0      0         15     0             0      0     0     0       0       
+ece720t7/low_swing_rx/layout    4        0       0        81     0      52        4      0             0      0     0     0       0       
+tsmcN65/nch_hvt/layout          0        0       0        27     0      0         12     0             0      0     0     0       0       
+tsmcN65/M1_PO/layout            0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmcN65/M1_PO/layout            0        0       0        3      0      0         0      0             0      0     0     0       0       
+tsmcN65/pch/layout              0        0       0        41     0      0         14     0             0      0     0     0       0       
+tsmcN65/nch/layout              0        0       0        26     0      0         12     0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+tsmcN65/pch_hvt/layout          0        0          0          0          0          0     0        0         0         0        
+ece720t7/low_swing_rx/layout    0        0          0          0          0          0     0        0         2         0        
+tsmcN65/nch_hvt/layout          0        0          0          0          0          0     0        0         0         0        
+tsmcN65/M1_PO/layout            0        0          0          0          0          0     0        0         0         0        
+tsmcN65/M1_PO/layout            0        0          0          0          0          0     0        0         0         0        
+tsmcN65/pch/layout              0        0          0          0          0          0     0        0         0         0        
+tsmcN65/nch/layout              0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+IP              drawing         63      63        0        0        0        24       0             0    0   0   0     0      0      
+NW              drawing         3       0         0        3        0        0        0             0    0   0   0     0      0      
+VTH_N           drawing         67      0         0        1        0        0        0             0    0   0   0     0      0      
+NP              drawing         26      0         0        2        0        0        0             0    0   0   0     0      0      
+VTH_P           drawing         68      0         0        1        0        0        0             0    0   0   0     0      0      
+M1              drawing         31      0         0        25       0        0        0             0    0   0   0     0      36     
+CO              drawing         30      0         0        91       0        0        0             0    0   0   0     0      0      
+M1              pin             131     0         0        4        0        4        0             0    0   0   0     0      0      
+PO              drawing         17      0         0        56       0        0        0             0    0   0   0     0      16     
+PDK             drawing         75      0         0        2        0        0        0             0    0   0   0     0      0      
+OD              drawing         6       0         0        39       0        0        0             0    0   0   0     0      0      
+PP              drawing         25      0         0        2        0        0        0             0    0   0   0     0      0      
+text            drawing         127     0         0        0        0        29       0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		4
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			226
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			2
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			52
+	Text:				57
+	TextDisplay:		0
+	Cells:				7
+Design Libraries: 
+
+DEFINE ece720t7	/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/ece720t7
+DEFINE tsmcN65	/CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65

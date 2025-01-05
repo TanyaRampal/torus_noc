@@ -1,0 +1,39 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/pex
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName AHVDD
+lvs_PowerName AHVDDB
+lvs_PowerName AHVDDG
+lvs_PowerName AHVDDR
+lvs_PowerName AHVDDWELL
+lvs_PowerName AVDD
+lvs_PowerName AVDDB
+lvs_PowerName AVDDBG
+lvs_PowerName AVDDG
+lvs_PowerName AVDDR
+lvs_PowerName AVDWELL
+lvs_PowerName DHVDD
+lvs_PowerName DVDD
+lvs_PowerName HVDDWELL
+lvs_PowerName TACVDD
+lvs_PowerName TAVD33
+lvs_PowerName TAVD33PST
+lvs_PowerName TAVDD
+lvs_PowerName TAVDDPST
+lvs_PowerName VD33
+lvs_PowerName VDD
+lvs_PowerName VDD5V
+lvs_PowerName VDDG
+lvs_PowerName VDDM
+lvs_PowerName VDDPST
+lvs_PowerName VDDSA
+lvs_PowerName VDWELL
+lvs_GroundName VSS
+lvs_LvsOutFile LVS_REPORT low_swing_tx.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/../lvs/low_swing_tx.src.net
+lvs_LvsOutFile RULES_FILE /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/_ece720.rcx_
+lvs_LvsRunTimes 1733622509 1733622509

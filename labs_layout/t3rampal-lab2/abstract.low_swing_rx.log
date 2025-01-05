@@ -1,0 +1,143 @@
+INFO (ABS-19020): Starting @(#)$CDS: Abstract version 6.1.8-64b 03/06/2019 02:37 (ip-172-18-22-58) $, sub-version  IC6.1.8-64b.500.2 , on  2.6.32-431.11.2.el6.x86_64
+INFO (ABS-19012): Replaying customcell/ece720.lef.low_swing_rx.runset file.
+INFO (ABS-19030): 1 absSkillMode()
+t
+INFO (ABS-19030): 2 absDisableUpdate()
+t
+INFO (ABS-19030): 3 absEnableUpdate()
+t
+INFO (ABS-19030): 4 absSetLibrary("ece720t7")
+INFO (ABS-10500): Library ece720t7 Opening /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/ece720t7
+Initializing from libInit.il for library tsmcN65...
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/pcode1.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/pcode2.cxt
+   --  tsmcPdkParamTable.il
+   --  tsmcN65_updateCDFs.il
+   --  tsmc_esti.ile
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65gp_v1d0c.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newAMS.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+   --  tsmcN65.cxt
+   --  tif_tcf_crn65gp_v1.0a.cxt
+   --  tsmcN65Tool.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65GP_v1d0.cxt already loaded
+   --  /CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/tsmcN65_newAMS.cxt
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65_newRTMOM.cxt already loaded
+Loading Working place Display File '/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/display.drf'
+*WARNING* (loadContext): context //CMC/tsmc_65nm/CRN65GP/TN65CMSP018K3_V1.0C/tsmcN65/../skill/64bit/tsmcN65_newAMS.cxt already loaded
+INFO (ABS-10011): Verifying Technology Data ...
+INFO (ABS-10012): Layer summary: 9 metal layer(s), 9 via layer(s), 3 poly layer(s), and 1 diff layer(s) found
+INFO (ABS-20023): Via summary: 9 valid via(s) found
+INFO (ABS-10501): Library ece720t7 Loading 6 cells
+INFO (ABS-10502): Library ece720t7 Loaded 6 cells
+INFO (ABS-10507): Library ece720t7 opened
+INFO (ABS-19046): Abstract Generator no longer uses the '.abstract.options' file in the selected design library as the default options file. The new default file location is <current working directory>/.abstract/<library name>/.abstract.options. 
+*WARNING* (ABS-20061): Abstract Generator will ignore the value of the 'ReadOnlyTechnology' option and will not save the layer-purpose pairs in the technology file. Support for the 'ReadOnlyTechnology' option will be removed in a future release.
+t
+INFO (ABS-19030): 5 absSelectCellFrom("low_swing_rx" "low_swing_rx")
+1
+INFO (ABS-19030): 6 absDisableUpdate()
+t
+INFO (ABS-19030): 7 absSetBinOption("Core" "PinsPowerNames" "^((V(DD|CC|DDL))|(v(dd|cc)))(!)?$")
+1
+INFO (ABS-19030): 8 absSetBinOption("Core" "PinsTextPinMap" "(M1 M1) (M2 M2) (M3 M3) (M4 M4) (M5 M5) (M6 M6)")
+1
+INFO (ABS-19030): 9 absEnableUpdate()
+t
+INFO (ABS-19030): 10 absPins()
+INFO (ABS-10511): Saving current option settings for library ece720t7 to the file /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.
+INFO (ABS-11900): Cell low_swing_rx: Step Pins started
+Loading techComp.cxt 
+INFO (ABS-12014): Cell low_swing_rx: The prBoundary has been created successfully.
+INFO (ABS-12042): Cell low_swing_rx: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+INFO (ABS-12001): Cell low_swing_rx: There are 4 existing terminals. No pins will be added for them.
+INFO (ABS-12002): Cell low_swing_rx: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
+INFO (ABS-19022): Running Pins 100 percent complete...
+INFO (ABS-11901): Cell low_swing_rx: Step Pins finished
+1
+INFO (ABS-19030): 11 absDisableUpdate()
+t
+INFO (ABS-19030): 12 absSetBinOption("Core" "ExtractMustJoinAlways" "true")
+1
+INFO (ABS-19030): 13 absSetBinOption("Core" "ExtractAntennaGate" "(PO (PO and OD)) ")
+1
+INFO (ABS-19030): 14 absSetOption( "ExtractShapeLimit"          "1000000")
+1
+INFO (ABS-19030): 15 absEnableUpdate()
+t
+INFO (ABS-19030): 16 absExtract()
+INFO (ABS-10509): Saving existing options file for library ece720t7 to /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ece720t7 to the file /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.
+INFO (ABS-11900): Cell low_swing_rx: Step Extract started
+INFO (ABS-13002): Cell low_swing_rx: extracting 4 nets
+INFO (ABS-13004): Cell low_swing_rx: extracting the net o, 1 of 4.
+INFO (ABS-19022): Running Extract 20 percent complete...
+INFO (ABS-13004): Cell low_swing_rx: extracting the net i, 2 of 4.
+INFO (ABS-19022): Running Extract 50 percent complete...
+INFO (ABS-13004): Cell low_swing_rx: extracting the net vdd, 3 of 4.
+INFO (ABS-19022): Running Extract 70 percent complete...
+INFO (ABS-13004): Cell low_swing_rx: extracting the net vss, 4 of 4.
+INFO (ABS-19022): Running Extract 100 percent complete...
+INFO (ABS-11901): Cell low_swing_rx: Step Extract finished
+1
+INFO (ABS-19030): 17 absDisableUpdate()
+t
+INFO (ABS-19030): 18 absSetBinOption("Core" "AbstractSiteNameDefine" "core")
+1
+INFO (ABS-19030): 19 absEnableUpdate()
+t
+INFO (ABS-19030): 20 absAbstract()
+INFO (ABS-10509): Saving existing options file for library ece720t7 to /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ece720t7 to the file /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.
+INFO (ABS-11900): Cell low_swing_rx: Step Abstract started
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA4
+INFO (ABS-19022): Running Abstract 10 percent complete...
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA5
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA6
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA3
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA2
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA1
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M5
+INFO (ABS-19022): Running Abstract 20 percent complete...
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M7
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA7
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M8
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer VIA8
+INFO (ABS-19026): Cell low_swing_rx: Generating detailed blockages for layer M9
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell low_swing_rx is invalid.
+INFO (ABS-19022): Running Abstract 50 percent complete...
+INFO (ABS-11901): Cell low_swing_rx: Step Abstract finished
+INFO (ABS-14004): Power Rail Analysis: 
+
+===========================================================================
+Rails found
+===========================================================================
+
+rail  type    net  layer  width  offset  shape     direction   cells
+---------------------------------------------------------------------------
+1     power   vdd  M1     0.33   2.1     abutment  horizontal  low_swing_rx
+2     ground  vss  M1     0.33   0.3     abutment  horizontal  low_swing_rx
+
+INFO (ABS-14005): Using power rails 1 and 2 to set terminal properties.
+ These settings may be altered using the Adjust 'Power 
+ rail widths and offsets:' option table.
+*WARNING* (ABS-14027): Cell low_swing_rx: the site name core is present in the tech file with different properties so the original site will be used.
+INFO (ABS-19022): Running Abstract 100 percent complete...
+1
+INFO (ABS-19030): 21 absExit()
+INFO (ABS-10508): Library ece720t7 closing /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/ece720t7
+INFO (ABS-10509): Saving existing options file for library ece720t7 to /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ece720t7 to the file /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/.abstract/ece720t7/.abstract.options.
+INFO (ABS-10515): Library ece720t7 closed
+INFO (ABS-10529): Abstract Generation finished for Library ece720t7 
+t
+INFO (ABS-19013): Finished replaying customcell/ece720.lef.low_swing_rx.runset file.
+INFO (ABS-19021): Finished sub-version  IC6.1.8-64b.500.2 

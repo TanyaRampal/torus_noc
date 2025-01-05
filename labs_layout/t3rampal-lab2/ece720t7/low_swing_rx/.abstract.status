@@ -1,0 +1,6 @@
+cUiSelectCellP {low_swing_rx}
+cUiSetViewStatus {low_swing_rx} {layout} {1}
+cUiSetViewStatus {low_swing_rx} {logical} {0}
+cUiSetViewStatus {low_swing_rx} {abstract.pin} {1}
+cUiSetViewStatus {low_swing_rx} {abstract.ext} {1}
+cUiSetViewStatus {low_swing_rx} {abstract} {3}

@@ -1,0 +1,4 @@
+// spectre model include files
+simulator lang = spectre
+include "/CMC/kits/tsmc_65nm/CRN65GP/SPICE/crn65gplus_2d5_lk_v1d1_usage.scs" section=fs_lib
+simulator lang = spice

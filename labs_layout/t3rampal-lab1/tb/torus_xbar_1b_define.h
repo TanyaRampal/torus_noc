@@ -1,0 +1,6 @@
+`define DUT_SIG_NI [1 - 1 : 0]
+`define DUT_SIG_NTOS [2 - 1 : 1]
+`define DUT_SIG_PI [3 - 1 : 2]
+`define DUT_SIG_WI [4 - 1 : 3]
+`define DUT_SIG_WTOE [5 - 1 : 4]
+`define DUT_SIG_WTOS [6 - 1 : 5]

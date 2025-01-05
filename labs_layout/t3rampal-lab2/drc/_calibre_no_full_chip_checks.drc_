@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Sat Dec 07 20:47:45 EST 2024
+//     by Calibre Interactive - DRC (v2019.4_36.18)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "low_swing_rx.calibre.db"
+LAYOUT PRIMARY "low_swing_rx"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "low_swing_rx.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "low_swing_rx.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/CMC/kits/tsmc_65nm/CRN65GP/PDK/Calibre/drc/calibre_no_full_chip_checks.drc"
+

@@ -1,0 +1,10 @@
+       1 xdut.
+       2 xdut.x_pm_low_swing_tx%vss.
+       3 xdut.x_pm_low_swing_tx%vdd.
+       4 xdut.x_pm_low_swing_tx%net19.
+       5 xdut.x_pm_low_swing_tx%net17.
+       6 xdut.x_pm_low_swing_tx%c.
+       7 xdut.x_pm_low_swing_tx%net14.
+       8 xdut.x_pm_low_swing_tx%net16.
+       9 xdut.x_pm_low_swing_tx%net33.
+      10 xdut.x_pm_low_swing_tx%i.

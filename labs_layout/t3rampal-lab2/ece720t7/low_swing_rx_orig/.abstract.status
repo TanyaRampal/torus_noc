@@ -1,0 +1,5 @@
+cUiSetViewStatus {low_swing_rx_orig} {layout} {1}
+cUiSetViewStatus {low_swing_rx_orig} {logical} {0}
+cUiSetViewStatus {low_swing_rx_orig} {abstract.pin} {0}
+cUiSetViewStatus {low_swing_rx_orig} {abstract.ext} {0}
+cUiSetViewStatus {low_swing_rx_orig} {abstract} {0}

@@ -1,0 +1,17 @@
+
+********************************************************************************
+Product   : Virtuoso(R) LEF Out 
+Program   : @(#)$CDS: lefout version 6.1.8-64b 03/06/2019 02:40 (ip-172-18-22-52) $
+SubVersion: sub-version  IC6.1.8-64b.500.2 
+Started at: 05-Dec-2024  22:23:08
+User Name : t3rampal
+Host Name : ECEUBUNTU2
+Directory : /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1
+DB Version: 	20190306 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: lefout -lib ece720t7 -cells "torus_xbar_1b" -views "abstract" -log lefout.log -lef torus_xbar_1b.lef -ver 5.7 -noTech
+
+Elapsed Time: 0.4s
+
+lefout translation completed (errors: 0, warnings: 0).

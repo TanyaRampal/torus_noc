@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Sat Dec  7 20:48:51 2024 " "v2019.4_36.18" "-xrc -pdb -rcc -turbo 1 /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/_ece720.rcx_"
+"Sat Dec  7 20:48:56 2024 " "v2019.4_36.18" "-xrc -fmt -all /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/./pex/_ece720.rcx_"

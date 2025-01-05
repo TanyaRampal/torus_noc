@@ -1,0 +1,204 @@
+Using: /CMC/tools/synopsys/hspice_vR-2020.12-SP2-2/hspice/R-2020.12-SP2-2/hspice/linux64/hspice layout_low_swing_rx_tb.sp
+ ****** PrimeSim HSPICE -- R-2020.12-SP2-2 linux64 (Jul 29 2021 7189106) ******
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: layout_low_swing_rx_tb.sp                                         
+  Command line options: /CMC/tools/synopsys/hspice_vR-2020.12-SP2-2/hspice/R-2020.12-SP2-2/hspice/linux64/hspice layout_low_swing_rx_tb.sp
+  Start time: Sat Dec  7 20:48:57 2024
+ lic:  
+ lic: FLEXlm: SDK_12.9.5 
+ lic: USER:   t3rampal             HOSTNAME: ECEUBUNTU2 
+ lic: HOSTID: "b8ca3a6f3fe4"       PID:      3489163 
+ lic: Using FLEXlm license file: 
+ lic: 6053@cadpass2.eng.uwaterloo.ca 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 01-feb-2025/2024.09 
+ lic: 3(in_use)/500(total) FLOATING license(s) on SERVER 6053@cadpass2.eng.uwaterloo.ca 
+ lic:   
+  **info**  the obsolete option modsrh is ignored
+  **info**  the obsolete option modsrh is ignored
+  **warning** (low_swing_rx.pex.netlist.pex:8) Global net name "vss" in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** PrimeSim HSPICE -- R-2020.12-SP2-2 linux64 (Jul 29 2021 7189106) ******
+ ******  
+ .option
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xdut.                           low_swing_rx       1.00 
+        2 xdut.x_pm_low_swing_rx%vss.     pm_low_swing_rx%vss
+                                                                 1.00 
+        3 xdut.x_pm_low_swing_rx%vdd.     pm_low_swing_rx%vdd
+                                                                 1.00 
+        4 xdut.x_pm_low_swing_rx%net10.   pm_low_swing_rx%net10
+                                                                 1.00 
+        5 xdut.x_pm_low_swing_rx%o.       pm_low_swing_rx%o
+                                                                 1.00 
+        6 xdut.x_pm_low_swing_rx%i.       pm_low_swing_rx%i
+                                                                 1.00 
+  **info** (layout_low_swing_rx_tb.sp:23) DC voltage reset to initial transient source value in source 0:v_i. new dc=0.0000D+00
+  **warning** (pch.25:xdut.mm0 (low_swing_rx.pex.netlist:13)) Warning: No WPE calculated, parameters SCA, SCB, SCC, SC not specified and/or SC not positive. 
+             
+ Summary of Linear Res Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-03  ~  1e-02|1         |0.3049    |
+ |1e-02  ~  1e-01|83        |25.3049   |
+ |1e-01  ~  1e+00|65        |19.8171   |
+ |1e+00  ~  1e+03|179       |54.5732   |
+ ---------------------------------------
+              
+             
+ Summary of Linear Cap Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-20  ~  1e-19|1         |0.1873    |
+ |1e-19  ~  1e-18|77        |14.4195   |
+ |1e-18  ~  1e-17|370       |69.2884   |
+ |1e-17  ~  1e-16|84        |15.7303   |
+ |1e-16  ~  1e-15|1         |0.1873    |
+ |1e-14  ~  1e-13|1         |0.1873    |
+ ---------------------------------------
+              
+             
+ Summary of Detailed RC Type Statistics
+ -------------------------
+ |Element Type|Number    |
+ |------------+----------|
+ |Constant Res|328       |
+ |            |          |
+ |Constant Cap|534       |
+ -------------------------
+              
+  
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000000  
+  Opening plot unit= 15
+ file=layout_low_swing_rx_tb.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = width_sweep , index =     1 ***
+
+ ******
+ .option
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ vdd_power= 8.7597e-06  from= 0.0000e+00     to= 1.7000e-08
+ pd_hh= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+ pd_ll= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+
+          ***** job concluded
+ ******
+ .option
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** data name = width_sweep , index = 2 ***
+  
+ vdd_power= 8.7597e-06  from= 0.0000e+00     to= 1.7000e-08
+ pd_hh= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+ pd_ll= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+
+          ***** job concluded
+ ******
+ .option
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** data name = width_sweep , index = 3 ***
+  
+ vdd_power= 8.7597e-06  from= 0.0000e+00     to= 1.7000e-08
+ pd_hh= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+ pd_ll= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+
+          ***** job concluded
+ ******
+ .option
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** data name = width_sweep , index = 4 ***
+  
+ vdd_power= 8.7597e-06  from= 0.0000e+00     to= 1.7000e-08
+ pd_hh= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+ pd_ll= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+
+          ***** job concluded
+ ******
+ .option
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** data name = width_sweep , index = 5 ***
+  
+ vdd_power= 8.7597e-06  from= 0.0000e+00     to= 1.7000e-08
+ pd_hh= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+ pd_ll= 6.0953e-11  targ= 1.1324e-09   trig= 1.0714e-09
+
+          ***** job concluded
+ ******  
+ .option
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz
+ cpu MHz	: 3000.000
+ CPU(s)		: 72
+  
+ OS:
+ Linux version 4.18.0-553.27.1.el8_10.x86_64 (mockbuild@x86-vm-05.brew-001.prod.iad2.dc.redhat.com) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC)) #1 SMP Fri Oct 18 06:18:15 EDT 2024
+
+ System loadavg : 1.55 1.08 1.18 2/1854 3489166
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    72
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     280 # elements   =     869
+  # resistors   =     328 # capacitors =     534 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       4 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           8
+  transient          0.35     8500005        6495        2370 rev=       110
+  readin             0.15
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        551.11 megabytes
+           total cpu time            0.52 seconds
+           total elapsed time        1.09 seconds
+           job started at     20:48:57 12/07/2024
+           job ended   at     20:48:59 12/07/2024
+
+>info:         ***** hspice job concluded
+           job total runtime         1.09 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.55(s)

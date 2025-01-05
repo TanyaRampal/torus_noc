@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/low_swing_tx.dv
+dv_start matched                                  
+dv_cell {low_swing_tx} {low_swing_tx} matched
+dv_obj_count -transformed_nets {6 6} -transformed_inst {4 4} -transformed_port {4 4}
+dv_end

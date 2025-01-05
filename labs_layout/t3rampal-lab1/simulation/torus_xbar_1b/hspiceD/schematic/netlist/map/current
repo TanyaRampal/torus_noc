@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "torus_xbar_1b"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab1/simulation/torus_xbar_1b/hspiceD/schematic/netlist"
+ )
+( model
+( "ece720t7/torus_xbar_1b/schematic" "torus_xbar_1b" )
+ )
+( "torus_xbar_1b" "ihnl/cds0/map" )
+ )

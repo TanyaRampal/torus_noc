@@ -1,0 +1,30 @@
+*pexRulesFile: ../fullcustom/ece720.rcx
+*pexRunDir: ./pex
+*pexLayoutPaths: torus_xbar_1b.calibre.db
+*pexLayoutPrimary: torus_xbar_1b
+*pexLayoutLibrary: ece720t7
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: ../lvs/torus_xbar_1b.src.net
+*pexSourcePrimary: torus_xbar_1b
+*pexSourceLibrary: ece720t7
+*pexSourceView: schematic
+*pexPexGroundName: 1
+*pexPexGroundNameValue: VSS
+*pexGroundNames: VSS
+*pexReportFile: torus_xbar_1b.lvs.report
+*pexPexNetlistFile: torus_xbar_1b.pex.netlist
+*pexPexNetlistFormat: HSPICE
+*pexPexNetlistNameSource: SOURCEBASED
+*pexPexReportFile: torus_xbar_1b.pex.report
+*pexStartRVE: 1
+*cmnWarnLayoutOverwrite: 0
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ece720t7
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: torus_xbar_1b.def

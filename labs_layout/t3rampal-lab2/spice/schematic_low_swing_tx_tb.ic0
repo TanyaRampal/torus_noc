@@ -1,0 +1,22 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "R-2020.12-SP2-2 linux64"
+* "format" "HSP"
+* "rundate" "20:47:04 12/07/2024 "
+* "netlist" "schematic_low_swing_tx_tb.sp "
+* "runtitle" ".option"
+* time =  0.000000e+00    
+* temperature =  2.500000e+01    
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000000e-12    
+.nodeset
++ c = 1.171606e-10    
++ i = 0.000000e+00    
++ vdd = 1.000000e+00    
++ vss = 0.000000e+00    
++ xdut.net14 = 1.280420e-04    
++ xdut.net16 = 9.999565e-01    
++ xdut.net17 = 8.539202e-06    
++ xdut.net19 = 9.998554e-01    
++ xdut.net33 = 1.428781e-01    
+***   END: Saved Operating Point ***                     

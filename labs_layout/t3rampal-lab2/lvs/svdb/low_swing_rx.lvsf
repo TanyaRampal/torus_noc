@@ -1,0 +1,13 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName vdd
+lvs_GroundName vss
+lvs_LvsOutFile LVS_REPORT low_swing_rx.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/low_swing_rx.src.net
+lvs_LvsOutFile RULES_FILE /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/_calibre.lvs_
+lvs_LvsRunTimes 1733622494 1733622495

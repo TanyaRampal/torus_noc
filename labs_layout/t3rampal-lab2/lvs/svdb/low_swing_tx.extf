@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1733622489 1733622490
+lvs_ExtOutFile RUNDIR /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs
+lvs_ExtOutFile RULES_FILE /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/_calibre.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {6 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/t3rampal/ece720t7-f24/labs/labs_layout/t3rampal-lab2/lvs/low_swing_tx.sp
+lvs_ExtOutFile EXTRACTION_REPORT low_swing_tx.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE low_swing_tx.erc.results
+lvs_ExtOutFile ERC_SUMMARY low_swing_tx.erc.summary
